@@ -1,4 +1,3 @@
-// Gatsby supports TypeScript natively!
 import React from "react"
 import { PageProps, Link, graphql } from "gatsby"
 
@@ -6,6 +5,7 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
+import contactInfo from '../../site/settings/contact_info.json'
 
 type Data = {
   site: {
@@ -38,6 +38,7 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
     <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
       <Bio />
+      {contactInfo.email}
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
         return (
