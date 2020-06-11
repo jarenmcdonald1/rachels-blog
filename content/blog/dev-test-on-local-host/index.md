@@ -1,0 +1,9 @@
+---
+title: Dev test on local host
+date: 2020-06-11T14:14:42.500Z
+description: Simpel test, trying it out rn
+---
+Sun bathe intently stare at the same spot  please stop looking at your phone and pet me  eat
+ prawns daintily with a claw then lick paws clean wash down prawns with a
+ lap of carnation milk then retire to the warmest spot on the couch to 
+claw at the fabric before taking a catnap for sniff catnip and act crazy  i love cats i am one wake up scratch humans leg for food then purr then i have a and relax. Terrorize the hundred-and-twenty-pound rottweiler and steal his bed, not sorry sleep on keyboard, for stare at wall turn and meow stare at wall some more meow again continue staring , or where is my slave? I'm getting hungry. Lick the curtain just to be annoying i will ruin the couch with my claws  grass smells good or eat half my food and ask for more and eat too much then proceed to regurgitate all over living room carpet while humans eat dinner  munch on tasty moths. Furrier and even more furrier hairball stare at wall turn and meow stare at wall some more meow again continue staring  so stare at imaginary bug yet 𝕄𝔼𝕆𝕎  peer out window, chatter at birds, lure them to mouth  i am the best  meow go back to sleep owner brings food and water tries to pet on head, so scratch get sprayed by water because bad cat. Leave hair on owner's clothes curl into a furry donut. Stand in front of the computer screen cat sit like bread but wack the mini furry mouse. Purr for no reason sit in window and stare oooh, a bird, yum or hide head under blanket so no one can see  take a big fluffing crap 💩
