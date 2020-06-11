@@ -1,0 +1,23 @@
+// Global styles
+  
+.container#content {
+    margin-top: 60px;
+}
+body {
+    background-color: $white;
+    //font-family: $site-font;
+}
+#content {
+    min-height: 80vh;
+}
+h1,h2,h3,h4 {
+    font-weight: 600;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-link {
+    text-decoration: none;
+}
