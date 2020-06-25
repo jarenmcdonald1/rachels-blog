@@ -1,7 +1,8 @@
 import React from "react"
 
 import Header from '../components/Header.js'
-//import { rhythm, scale } from "../utils/typography"
+import Footer from '../components/Footer.js'
+import { Container } from 'react-bootstrap';
 import '../styles/index.scss'
 
 const Layout = ({ title, children }) => {
@@ -9,12 +10,10 @@ const Layout = ({ title, children }) => {
   return (
     <>
       <Header siteTitle={title} />
-      <main>{children}</main>
-      <footer>
-        © {new Date().getFullYear()}, Built with
-        {` `}
-        <a href="https://www.gatsbyjs.org">Gatsby</a>
-      </footer>
+      <Container>
+        <main>{children}</main>
+      </Container>
+      <Footer />
     </>
   )
 }
