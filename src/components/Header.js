@@ -5,8 +5,8 @@ import { Container, Navbar, Nav } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 const Header = ({ title }) => (
-  <header className="bg-light" id="topPage">
-    <Container>
+  <header className="header-con" id="topPage">
+    <Container fluid>
       <Navbar expand="md" variant="light">
         <Navbar.Brand href="/" className="font-weight-bold">RMD Holistics</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarResponsive" />
@@ -28,6 +28,7 @@ const Header = ({ title }) => (
     </Container>
   </header>
 )
+
 /*
 Header.propTypes = {
   siteTitle: PropTypes.string,
@@ -37,4 +38,5 @@ Header.defaultProps = {
   siteTitle: ``,
 }
 */
+
 export default Header

@@ -7,7 +7,7 @@ const Footer = () => (
   <footer className="mt-4 mt-lg-5 bg-secondary">
     <Container>
       <Row className="py-3 justify-content-center">
-        <span>© {new Date().getFullYear()} Rachel McDonald</span>
+        <span class="copyright-text">© {new Date().getFullYear()} Rachel McDonald</span>
       </Row>
     </Container>
   </footer>

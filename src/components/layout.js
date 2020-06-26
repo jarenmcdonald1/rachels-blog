@@ -10,7 +10,7 @@ const Layout = ({ title, children }) => {
   return (
     <>
       <Header siteTitle={title} />
-      <Container>
+      <Container id="content">
         <main>{children}</main>
       </Container>
       <Footer />
