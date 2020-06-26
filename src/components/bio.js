@@ -1,6 +1,7 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
+import '../styles/index.scss'
 
 const Bio = () => {
   const data = useStaticQuery(graphql`
@@ -25,27 +26,10 @@ const Bio = () => {
 
   const { author } = data.site.siteMetadata
   return (
-    <div
-      style={{
-        display: `flex`,
-      }}
-    >
-      <Image
-        fluid={data.avatar.childImageSharp.fluid}
-        alt={author.name}
-        style={{
-          marginBottom: 0,
-          minWidth: 50,
-          maxWidth: 50,
-          maxHeight: 50,
-          borderRadius: `100%`,
-        }}
-        imgStyle={{
-          borderRadius: `50%`,
-        }}
-      />
-      <p>Hello, I'm <span className="font-weight-bold">{author.name}</span>! {author.summary}</p>
-    </div>
+    <section className="mb-4 d-flex justify-content-center align-items-center">
+      <Image fluid={data.avatar.childImageSharp.fluid} alt={author.name} className="bio-img w-100 h-100 rounded-circle" />
+      <p className="pl-2 mb-0">Hello, I'm <span className="font-weight-bold">{author.name}</span>! {author.summary}</p>
+    </section>
   )
 }
 
