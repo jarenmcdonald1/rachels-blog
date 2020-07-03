@@ -7,6 +7,7 @@ body {
 }
 h1,h2,h3,h4 {
     font-weight: 600;
+    color: $black;
 }
 ul {
     list-style: none;
@@ -28,7 +29,19 @@ ul {
 
 #content {
     padding-top: 100px;
-    min-height: 93vh;
+    min-height: 65vh;
+}
+
+@media only screen and (min-width: 768px) {
+    #content {
+        min-height: 78vh;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #content {
+        min-height: 74vh;
+    }
 }
 
 .nav-link {
@@ -41,4 +54,20 @@ ul {
 
 .text-pink {
     color: $pink;
+}
+
+.indexBannerImg {
+    max-height: 250px;
+}
+
+@media only screen and (min-width: 768px) {
+    .indexBannerImg {
+        max-height: 350px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .indexBannerImg {
+        max-height: 450px;
+    }
 }

@@ -1,7 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 
-import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -17,49 +16,25 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         description={post.frontmatter.description || post.excerpt}
       />
       <article>
-        <header>
-          <h1
-            style={{
-              marginBottom: 0,
-            }}
-          >
-            {post.frontmatter.title}
-          </h1>
-          <p
-            style={{
-              display: `block`,
-            }}
-          >
-            {post.frontmatter.date}
-          </p>
-        </header>
+        <section className="mb-3 mb-md-5 pb-md-4 border-bottom">
+          <h2 className="h1">{post.frontmatter.title}</h2>
+          <p>{post.frontmatter.date}</p>
+        </section>
         <section dangerouslySetInnerHTML={{ __html: post.html }} />
-        <hr />
-        <footer>
-          <Bio />
-        </footer>
       </article>
 
       <nav>
-        <ul
-          style={{
-            display: `flex`,
-            flexWrap: `wrap`,
-            justifyContent: `space-between`,
-            listStyle: `none`,
-            padding: 0,
-          }}
-        >
+        <ul className="py-4 py-md-5 d-flex flex-wrap justify-content-between list-unstyled">
           <li>
             {previous && (
-              <Link to={previous.fields.slug} rel="prev">
+              <Link to={previous.fields.slug} rel="prev" className="btn btn-outline-info">
                 ← {previous.frontmatter.title}
               </Link>
             )}
           </li>
           <li>
             {next && (
-              <Link to={next.fields.slug} rel="next">
+              <Link to={next.fields.slug} rel="next" className="btn btn-outline-info">
                 {next.frontmatter.title} →
               </Link>
             )}

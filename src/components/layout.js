@@ -11,7 +11,7 @@ const Layout = ({ title, children }) => {
   return (
     <>
       <Header siteTitle={title} />
-      <Container id="content">
+      <Container id="content" className="pb-3 pb-md-4 pb-lg-5">
         <main className="container">{children}</main>
       </Container>
       <Subscribe />
