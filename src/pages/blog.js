@@ -3,7 +3,7 @@ import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { Container, Row, Card, Button } from "react-bootstrap"
+import { Row, Card } from "react-bootstrap"
 import '../styles/index.scss'
 //import contactInfo from '../../site/settings/contact_info.json'
 
@@ -15,13 +15,12 @@ const BlogMain = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="Blog" />
-      <Container fluid>
-        <Row>
+      <Row>
 
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
-            <div className="col-12 col-lg-4 mb-3 mb-lg-0">
+            <div className="blogListPost mb-3 mb-lg-4">
               <Card key={node.fields.slug} className="w-100 h-100">
                 <Card.Body>
                   <Card.Title>
@@ -37,15 +36,14 @@ const BlogMain = ({ data, location }) => {
                       }}
                     />
                   </section>
-                  <Button variant="success"><Link to={node.fields.slug} className="text-white text-decoration-none">Read more</Link></Button>
+                  <Link to={node.fields.slug} className="btn btn-success">Read more</Link>
                 </Card.Body>
               </Card>
             </div>
           )
         })}
 
-        </Row>
-      </Container>
+      </Row>
     </Layout>
   )
 }

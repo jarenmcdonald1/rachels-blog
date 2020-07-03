@@ -27,8 +27,9 @@ const Bio = () => {
 
   const { author } = data.site.siteMetadata
   return (
-    <Card className="w-100 border-0 mb-4 mb-md-5">
-      <Row className="no-gutters">
+    <section>
+    <Card className="w-100 border-0">
+      <Row>
         <Col md={4}>
           <Img fluid={data.avatar.childImageSharp.fluid} alt={author.name} objectFit="cover" objectPosition="50% 50%" fadeIn className="w-100 h-100 rounded" />
         </Col>
@@ -42,6 +43,7 @@ const Bio = () => {
         </Col>
       </Row>
     </Card>
+    </section>
   )
 }
 

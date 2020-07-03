@@ -4,7 +4,7 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { Container, Row, Card, Button } from "react-bootstrap"
+import { Row, Card } from "react-bootstrap"
 import '../styles/index.scss'
 //import contactInfo from '../../site/settings/contact_info.json'
 
@@ -16,9 +16,10 @@ const BlogIndex = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="Home" />
-      <Bio />
-      <Container fluid>
-        <Row>
+      <Row className="mb-4 mb-lg-5">
+        <Bio />
+      </Row>
+      <Row>
 
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
@@ -39,20 +40,18 @@ const BlogIndex = ({ data, location }) => {
                       }}
                     />
                   </section>
-                  <Button variant="success"><Link to={node.fields.slug} className="text-white text-decoration-none">Read more</Link></Button>
+                  <Link to={node.fields.slug} className="btn btn-success">Read more</Link>
                 </Card.Body>
               </Card>
             </div>
           )
         })}
 
-        </Row>
-        <Row className="justify-content-center py-3 py-lg-4">
-          <Button variant="success" size="lg">
-          <Link to='/blog' className="text-white text-decoration-none">See all blog posts</Link>
-          </Button>
-        </Row>
-      </Container>
+      </Row>
+
+      <Row className="justify-content-center py-3 py-lg-4 mb-4 mb-lg-5">
+        <Link to='/blog' className="btn btn-lg btn-success">See all blog posts</Link>
+      </Row>
     </Layout>
   )
 }
