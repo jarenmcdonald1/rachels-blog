@@ -18,7 +18,12 @@ const Header = ({ title }) => (
               </Link>
             </Nav.Item>
             <Nav.Item as="li">
-              <Link to="/" className="nav-link" activeClassName="active">
+              <Link to="/blog" className="nav-link" activeClassName="active">
+                Blog
+              </Link>
+            </Nav.Item>
+            <Nav.Item as="li">
+              <Link to="/contact" className="nav-link" activeClassName="active">
                 Contact
               </Link>
             </Nav.Item>

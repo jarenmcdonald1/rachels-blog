@@ -1,7 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 
-import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Container, Row, Card, Button } from "react-bootstrap"
@@ -10,13 +9,12 @@ import '../styles/index.scss'
 
 //{contactInfo.email}
 
-const BlogIndex = ({ data, location }) => {
+const BlogMain = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
   const posts = data.allMarkdownRemark.edges
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="Home" />
-      <Bio />
+      <SEO title="Blog" />
       <Container fluid>
         <Row>
 
@@ -47,17 +45,12 @@ const BlogIndex = ({ data, location }) => {
         })}
 
         </Row>
-        <Row className="justify-content-center py-3 py-lg-4">
-          <Button variant="success" size="lg">
-          <Link to='/blog' className="text-white text-decoration-none">See all blog posts</Link>
-          </Button>
-        </Row>
       </Container>
     </Layout>
   )
 }
 
-export default BlogIndex
+export default BlogMain
 
 export const pageQuery = graphql`
   query {
@@ -66,7 +59,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}, limit: 3) {
+    allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC},) {
       edges {
         node {
           excerpt
