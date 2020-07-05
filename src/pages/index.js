@@ -18,8 +18,13 @@ const BlogIndex = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <SEO title="Home" />
 
-      <Row className="mb-4 mb-lg-5">
-        <Img className="mb-3 mb-md-0 rounded w-100 indexBannerImg" fluid={data.bannerImg.childImageSharp.fluid} fadeIn objectFit alt="rachel in texas" />
+      <Row className="mb-4 mb-lg-5 pb-lg-5 justify-content-center align-item-center">
+        <Card className="w-100 border-0 text-white">
+          <Img className="card-img mb-3 mb-md-0 rounded w-100 indexBannerImg" fluid={data.bannerImg.childImageSharp.fluid} fadeIn objectFit alt="rachel in texas" />
+          <Card.ImgOverlay className="d-flex align-items-center justify-content-center">
+            <Card.Title className="display-4 font-weight-bold text-shadow text-center">Fuel your Creativity</Card.Title>
+          </Card.ImgOverlay>
+        </Card>  
       </Row>
 
       <Row className="mb-4 mb-lg-5 py-lg-5">
@@ -29,7 +34,7 @@ const BlogIndex = ({ data, location }) => {
       <Row className="mb-4 mb-lg-5 py-lg-5">
         <Card className="w-100 border-0">
           <Row>
-            <Col md={8} className="d-flex justify-content-center align-items-center pl-md-2">
+            <Col md={8} className="d-flex justify-content-center align-items-center pr-md-2">
               <Card.Body>
                 <Card.Title className="font-weight-bold text-pink" style={{fontSize: '1.95em'}}>What is RMD Holistics?</Card.Title>
                 <Card.Text>RMD Holistics focuses on a complete approach to health and wellness. Our Holistic approach assess issues by digging down to the root of the problem to heal what is underneath the surface.</Card.Text>
@@ -39,13 +44,73 @@ const BlogIndex = ({ data, location }) => {
               </Card.Body>
             </Col>
             <Col md={4}>
-              <Img fluid={data.bannerImg.childImageSharp.fluid} alt="..." objectFit="cover" objectPosition="50% 50%" fadeIn className="w-100 h-100 rounded" />
+              <Img fluid={data.cardImg1.childImageSharp.fluid} alt="..." objectFit="cover" objectPosition="50% 50%" fadeIn className="w-100 h-100 rounded" />
             </Col>
           </Row>
         </Card>
       </Row>
 
-      <Row>
+      <Row className="mb-4 mb-lg-5 py-lg-5">
+        <Card className="w-100 border-0">
+          <Row>
+            <Col md={4}>
+              <Img fluid={data.cardImg2.childImageSharp.fluid} alt="..." objectFit="cover" objectPosition="50% 50%" fadeIn className="w-100 h-100 rounded" />
+            </Col>
+            <Col md={8} className="d-flex justify-content-center align-items-center pl-md-2">
+              <Card.Body>
+                <Card.Title className="font-weight-bold text-pink" style={{fontSize: '1.95em'}}>Who we work with:</Card.Title>
+                <Card.Text className="pl-4 pl-lg-5">
+                  <ul>
+                    <li>Dance Studios</li>
+                    <li>Dance Companies</li>
+                    <li>Athletes</li>
+                    <li>Individual Dancers</li>
+                    <li>Families &amp; Individuals</li>
+                    <li>Everyone</li>
+                  </ul>
+                </Card.Text>
+              </Card.Body>
+            </Col>
+          </Row>
+        </Card>
+      </Row>
+
+      <Row className="mb-4 mb-lg-5 py-lg-5">
+        <Card className="w-100 border-0">
+          <Row>
+            <Col md={8} className="d-flex justify-content-center align-items-center pr-md-2">
+              <Card.Body>
+                <Card.Title className="font-weight-bold text-pink" style={{fontSize: '1.95em'}}>What does a Holistic Nutritionist do?</Card.Title>
+                <Card.Text>A Holistic Nutritionist works with dancers, athletes, individuals, families, groups, and everyone on ways to improve nutrition, energy, strength and promote health and wellness and prevent disease.</Card.Text>
+                <Card.Text>This is achieved by offering the following services:</Card.Text>
+                <Card.Text className="pl-4 pl-lg-5">
+                  <ul>
+                    <li>Diet and Lifestyle Evaluation</li>
+                    <li>Teach Healthy Eating</li>
+                    <li>Grocery Store Shopping Tours</li>
+                    <li>Family Meal Planning</li>
+                    <li>Suggestions for Improving Wellness</li>
+                    <li>Suggestions for Managing Stress</li>
+                    <li>Meal Plans for improved mood, weight and strength</li>
+                    <li>Nutritional Speaker and Workshop Services</li>
+                    <li>Personal Client Consultations</li>
+                    <li>Advise Clients on Supplementation to aid increased wellness</li>         
+                  </ul>
+                </Card.Text>
+              </Card.Body>
+            </Col>
+            <Col md={4}>
+              <Img fluid={data.cardImg3.childImageSharp.fluid} alt="..." objectFit="cover" objectPosition="50% 50%" fadeIn className="w-100 h-100 rounded" />
+            </Col>
+          </Row>
+        </Card>
+      </Row>
+
+      <Row className="mb-2 px-md-3">
+        <h3 className="text-pink" style={{fontSize: '1.95em'}}>Read my blog:</h3>
+      </Row>
+
+      <Row className="mb-1 mb-md-2 mb-lg-3">
 
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
@@ -75,7 +140,7 @@ const BlogIndex = ({ data, location }) => {
 
       </Row>
 
-      <Row className="justify-content-center py-3 py-lg-4 mb-4 mb-lg-5">
+      <Row className="justify-content-center mb-4 mb-lg-5">
         <Link to='/blog' className="btn btn-lg btn-info">See all blog posts</Link>
       </Row>
 
@@ -88,6 +153,27 @@ export default BlogIndex
 export const pageQuery = graphql`
   query {
     bannerImg: file(relativePath: { eq: "rachel-texas.jpg"}) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    cardImg1: file(relativePath: { eq: "three-breads.jpg"}) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    cardImg2: file(relativePath: { eq: "grain-bowl.jpg"}) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    cardImg3: file(relativePath: { eq: "sliced-fruit.jpg"}) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid

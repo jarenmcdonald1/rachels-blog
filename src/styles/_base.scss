@@ -10,7 +10,6 @@ h1,h2,h3,h4 {
     color: $black;
 }
 ul {
-    list-style: none;
     padding: 0;
 }
 
@@ -70,4 +69,8 @@ ul {
     .indexBannerImg {
         max-height: 450px;
     }
+}
+
+.text-shadow {
+    text-shadow: 0.085em 0.05em 0.85rem $black;
 }
