@@ -52,10 +52,7 @@ const BlogIndex = ({ data, location }) => {
 
       <Row className="mb-4 mb-lg-5 py-lg-5">
         <Card className="w-100 border-0">
-          <Row>
-            <Col md={4}>
-              <Img fluid={data.cardImg2.childImageSharp.fluid} alt="..." objectFit="cover" objectPosition="50% 50%" fadeIn className="w-100 h-100 rounded" />
-            </Col>
+          <Row className="flex-md-row-reverse">
             <Col md={8} className="d-flex justify-content-center align-items-center pl-md-2">
               <Card.Body>
                 <Card.Title className="font-weight-bold text-pink" style={{fontSize: '1.95em'}}>Who we work with:</Card.Title>
@@ -70,6 +67,9 @@ const BlogIndex = ({ data, location }) => {
                   </ul>
                 </Card.Text>
               </Card.Body>
+            </Col>
+            <Col md={4}>
+              <Img fluid={data.cardImg2.childImageSharp.fluid} alt="..." objectFit="cover" objectPosition="50% 50%" fadeIn className="w-100 h-100 rounded" />
             </Col>
           </Row>
         </Card>
