@@ -4,7 +4,7 @@ import { Container, Row, Form, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 const Subscribe = () => (
-  <section className="bg-light">
+  <section className="bg-light mt-4 mt-lg-5">
     <Container className="py-4 py-lg-5">
         <Row className="d-block mb-4 px-3 px-md-2">
             <h2>Subscribe to my newsletter!</h2>
