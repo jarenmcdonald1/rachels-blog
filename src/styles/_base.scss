@@ -27,16 +27,14 @@ ul {
 }
 
 #content {
-    padding-top: 100px;
+    padding-top: 180px;
     min-height: 65vh;
 }
-
 @media only screen and (min-width: 768px) {
     #content {
         min-height: 78vh;
     }
 }
-
 @media only screen and (min-width: 992px) {
     #content {
         min-height: 74vh;
