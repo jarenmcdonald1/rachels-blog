@@ -67,13 +67,6 @@ export const blogPageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             description
-            thumbnail {
-              childImageSharp {
-                fluid(maxWidth: 600) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
           }
         }
       }
