@@ -4,13 +4,11 @@
 body {
     background-color: $white;
     //font-family: $site-font;
+    font-weight: 300;
 }
 h1,h2,h3,h4 {
     font-weight: 600;
     color: $black;
-}
-ul {
-    padding: 0;
 }
 
 .header-con {

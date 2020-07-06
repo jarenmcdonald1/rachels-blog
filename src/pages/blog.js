@@ -18,9 +18,9 @@ const BlogMain = ({ data, location }) => {
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
-            <div className="blogListPost mb-3 mb-lg-4">
+            <div className="blogListPost mb-3 mb-md-4 mb-lg-5">
               <Card key={node.fields.slug} className="w-100 h-100">
-                <Img className="card-img w-100 h-100" objectFit fadeIn fluid={node.frontmatter.thumbnail.childImageSharp.fluid} alt={node.frontmatter.title} style={{maxHeight:'200px'}} />
+                <Img className="card-img blogListPostImg" objectFit fadeIn fluid={node.frontmatter.thumbnail.childImageSharp.fluid} alt={node.frontmatter.title} />
                 <Card.Body>
                   <Card.Title>
                     <Link to={node.fields.slug} className="text-dark h3">

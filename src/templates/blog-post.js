@@ -4,6 +4,7 @@ import Img from 'gatsby-image'
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import { Row, Card } from 'react-bootstrap'
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.markdownRemark
@@ -16,14 +17,27 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
       />
-      <Img fluid={data.markdownRemark.frontmatter.thumbnail.childImageSharp.fluid} alt="rmd holistics" className="w-100 h-100" fadeIn />
-      <article>
-        <section className="mb-3 mb-md-5 pb-md-4 border-bottom">
-          <h2 className="h1">{post.frontmatter.title}</h2>
-          <p>{post.frontmatter.date}</p>
+
+      <Row className="mb-3 mb-md-4">
+        <Card className="w-100 border-0 text-white blogBannerCon">
+          <Img fluid={data.markdownRemark.frontmatter.thumbnail.childImageSharp.fluid} alt={post.frontmatter.title} className="w-100 h-100 card-img" objectFit fadeIn />
+          <Card.ImgOverlay className="d-flex align-items-center justify-content-center">
+            <Card.Title className="display-4 font-weight-bold text-shadow text-center">{post.frontmatter.title}</Card.Title>
+          </Card.ImgOverlay>
+        </Card>
+      </Row>
+
+      <Row className="mb-3 mb-md-4 mb-lg-5">
+        <section className="w-100 border-bottom">
+          <p className="lead">{post.frontmatter.date}</p>
         </section>
-        <section dangerouslySetInnerHTML={{ __html: post.html }} />
-      </article>
+      </Row>
+
+      <Row>
+        <article>
+          <section dangerouslySetInnerHTML={{ __html: post.html }} />
+        </article>
+      </Row>
 
       <nav>
         <ul className="py-4 py-md-5 d-flex flex-wrap justify-content-between list-unstyled">

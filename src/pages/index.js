@@ -56,7 +56,7 @@ const BlogIndex = ({ data, location }) => {
             <Col md={8} className="d-flex justify-content-center align-items-center pl-md-2">
               <Card.Body>
                 <Card.Title className="font-weight-bold text-pink" style={{fontSize: '1.95em'}}>Who we work with:</Card.Title>
-                <Card.Text className="pl-4 pl-lg-5">
+                <Card.Text>
                   <ul>
                     <li>Dance Studios</li>
                     <li>Dance Companies</li>
@@ -83,7 +83,7 @@ const BlogIndex = ({ data, location }) => {
                 <Card.Title className="font-weight-bold text-pink" style={{fontSize: '1.95em'}}>What does a Holistic Nutritionist do?</Card.Title>
                 <Card.Text>A Holistic Nutritionist works with dancers, athletes, individuals, families, groups, and everyone on ways to improve nutrition, energy, strength and promote health and wellness and prevent disease.</Card.Text>
                 <Card.Text>This is achieved by offering the following services:</Card.Text>
-                <Card.Text className="pl-4 pl-lg-5">
+                <Card.Text>
                   <ul>
                     <li>Diet and Lifestyle Evaluation</li>
                     <li>Teach Healthy Eating</li>
