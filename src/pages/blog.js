@@ -1,13 +1,11 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
+import Img from 'gatsby-image'
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Row, Card } from "react-bootstrap"
 import '../styles/index.scss'
-//import contactInfo from '../../site/settings/contact_info.json'
-
-//{contactInfo.email}
 
 const BlogMain = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
@@ -22,6 +20,7 @@ const BlogMain = ({ data, location }) => {
           return (
             <div className="blogListPost mb-3 mb-lg-4">
               <Card key={node.fields.slug} className="w-100 h-100">
+              
                 <Card.Body>
                   <Card.Title>
                     <Link to={node.fields.slug} className="text-dark h3">
@@ -50,14 +49,14 @@ const BlogMain = ({ data, location }) => {
 
 export default BlogMain
 
-export const pageQuery = graphql`
+export const blogPageQuery = graphql`
   query {
     site {
       siteMetadata {
         title
       }
     }
-    allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC},) {
+    allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}) {
       edges {
         node {
           excerpt
@@ -68,6 +67,13 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             description
+            thumbnail {
+              childImageSharp {
+                fluid(maxWidth: 600) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
         }
       }

@@ -1,5 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
+import Img from 'gatsby-image'
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -15,6 +16,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
       />
+      <Img fluid={data.markdownRemark.frontmatter.thumbnail.childImageSharp.fluid} alt="rmd holistics" className="w-100 h-100" fadeIn />
       <article>
         <section className="mb-3 mb-md-5 pb-md-4 border-bottom">
           <h2 className="h1">{post.frontmatter.title}</h2>
@@ -61,6 +63,13 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        thumbnail {
+          childImageSharp {
+            fluid(maxWidth: 1200) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
         description
       }
     }

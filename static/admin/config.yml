@@ -11,7 +11,7 @@ collections:
     folder: 'content/blog'
     create: true
     slug: 'index'
-    media_folder: 'content/assets/blog-imgs'
+    media_folder: ''
     public_folder: ''
     path: '{{title}}/index'
     editor:
@@ -24,7 +24,7 @@ collections:
         name: thumbnail
         widget: image
         hint: 'Image size 1200x800 works best'
-        required: false
+        required: true
         media_library:
           config:
             multiple: false
