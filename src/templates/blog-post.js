@@ -16,7 +16,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
       />
-      
+      <Img fluid={data.markdownRemark.frontmatter.thumbnail.childImageSharp.fluid} alt="rmd holistics" className="w-100 h-100" fadeIn />
       <article>
         <section className="mb-3 mb-md-5 pb-md-4 border-bottom">
           <h2 className="h1">{post.frontmatter.title}</h2>

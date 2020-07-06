@@ -20,7 +20,7 @@ const BlogMain = ({ data, location }) => {
           return (
             <div className="blogListPost mb-3 mb-lg-4">
               <Card key={node.fields.slug} className="w-100 h-100">
-              
+                <Img className="card-img w-100 h-100" objectFit fadeIn fluid={node.frontmatter.thumbnail.childImageSharp.fluid} alt={node.frontmatter.title} style={{maxHeight:'200px'}} />
                 <Card.Body>
                   <Card.Title>
                     <Link to={node.fields.slug} className="text-dark h3">
@@ -67,6 +67,13 @@ export const blogPageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             description
+            thumbnail {
+              childImageSharp {
+                fluid(maxWidth: 600) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
         }
       }
