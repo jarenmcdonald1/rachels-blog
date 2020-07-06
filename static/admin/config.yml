@@ -20,14 +20,14 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'string' }
-      - label: 'Feature Image'
-        name: 'thumbnail'
-        widget: 'image'
+      - label: Feature Image
+        name: thumbnail
+        widget: image
         hint: 'Image size 1200x800 works best'
-        required: 'false'
+        required: false
         media_library:
           config:
-            multiple: false  
+            multiple: false
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: "settings"
     label: "Settings"
