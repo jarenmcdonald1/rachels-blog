@@ -2,6 +2,7 @@
 title: Dev test on local host
 date: 2020-06-11T14:14:42.500Z
 description: Simpel test, trying it out rn
+thumbnail: pexels-photo-1853003.jpeg
 ---
 Sun bathe intently stare at the same spot  please stop looking at your phone and pet me  eat
  prawns daintily with a claw then lick paws clean wash down prawns with a
