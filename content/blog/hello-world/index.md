@@ -1,7 +1,8 @@
 ---
 title: Hello World
-date: "2015-05-01T22:12:03.284Z"
-description: "Hello World"
+date: 2015-05-01T22:12:03.284Z
+description: Hello World
+thumbnail: pexels-photo-1853003.jpeg
 ---
 
 This is my first post on my new fake blog! How exciting!
