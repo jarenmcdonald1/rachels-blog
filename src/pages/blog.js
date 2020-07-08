@@ -35,7 +35,7 @@ const BlogMain = ({ data, location }) => {
                       }}
                     />
                   </section>
-                  <Link to={node.fields.slug} className="btn btn-info">Read more</Link>
+                  <Link to={node.fields.slug} className="btn btn-outline-info rounded-pill">Read more</Link>
                 </Card.Body>
               </Card>
             </div>

@@ -24,6 +24,15 @@ h1,h2,h3,h4 {
     }
 }
 
+.navItemStyle {
+    border-bottom: 1px solid #dee2e6;
+}
+@media only screen and (min-width: 768px) {
+    .navItemStyle {
+        border-bottom: 0;
+    }
+}
+
 #content {
     padding-top: 180px;
     min-height: 65vh;
@@ -54,13 +63,11 @@ h1,h2,h3,h4 {
 .indexBannerImg {
     max-height: 250px;
 }
-
 @media only screen and (min-width: 768px) {
     .indexBannerImg {
         max-height: 350px;
     }
 }
-
 @media only screen and (min-width: 992px) {
     .indexBannerImg {
         max-height: 450px;
@@ -69,4 +76,13 @@ h1,h2,h3,h4 {
 
 .text-shadow {
     text-shadow: 0.085em 0.05em 0.85rem $black;
+}
+
+.indexInfoCardImg {
+    max-height: 300px;
+}
+@media only screen and (min-width: 768px) {
+    .indexInfoCardImg {
+        max-height: none;
+    }
 }

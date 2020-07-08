@@ -8,7 +8,7 @@ const Subscribe = () => (
     <Container className="py-4 py-lg-5">
         <Row className="d-block mb-4 px-3 px-md-2">
             <h2>Subscribe to my newsletter!</h2>
-            <h5>Be the first to hear about new blog posts, fun ideas and so much more!</h5>
+            <h5 className="lead">Be the first to hear about new blog posts, fun ideas and so much more!</h5>
         </Row>
         <Row className="px-3 px-md-0 justify-content-center align-items-center">
             <Form className="w-100 d-md-flex justify-content-around align-items-center">
@@ -20,7 +20,7 @@ const Subscribe = () => (
                     <Form.Label className="sr-only">Email</Form.Label>
                     <Form.Control type="email" placeholder="Your email" />
                 </Form.Group>
-                <Button variant="info" type="submit" className="px-md-2">
+                <Button variant="info" type="submit" className="px-md-2 rounded-pill">
                     Subscribe
                 </Button>
             </Form>

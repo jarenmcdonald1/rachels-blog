@@ -31,7 +31,7 @@ const BlogIndex = ({ data, location }) => {
         <Bio />
       </Row>
 
-      <Row className="mb-4 mb-lg-5 py-lg-5">
+      <Row id="servicesCon" className="mb-4 mb-lg-5 py-lg-5">
         <Card className="w-100 border-0">
           <Row>
             <Col md={8} className="d-flex justify-content-center align-items-center pr-md-2">
@@ -44,7 +44,7 @@ const BlogIndex = ({ data, location }) => {
               </Card.Body>
             </Col>
             <Col md={4}>
-              <Img fluid={data.cardImg1.childImageSharp.fluid} alt="..." objectFit="cover" objectPosition="50% 50%" fadeIn className="w-100 h-100 rounded" />
+              <Img fluid={data.cardImg1.childImageSharp.fluid} alt="..." objectFit="cover" objectPosition="50% 50%" fadeIn className="indexInfoCardImg w-100 h-100 rounded" />
             </Col>
           </Row>
         </Card>
@@ -69,7 +69,7 @@ const BlogIndex = ({ data, location }) => {
               </Card.Body>
             </Col>
             <Col md={4}>
-              <Img fluid={data.cardImg2.childImageSharp.fluid} alt="..." objectFit="cover" objectPosition="50% 50%" fadeIn className="w-100 h-100 rounded" />
+              <Img fluid={data.cardImg2.childImageSharp.fluid} alt="..." objectFit="cover" objectPosition="50% 50%" fadeIn className="indexInfoCardImg w-100 h-100 rounded" />
             </Col>
           </Row>
         </Card>
@@ -100,14 +100,14 @@ const BlogIndex = ({ data, location }) => {
               </Card.Body>
             </Col>
             <Col md={4}>
-              <Img fluid={data.cardImg3.childImageSharp.fluid} alt="..." objectFit="cover" objectPosition="50% 50%" fadeIn className="w-100 h-100 rounded" />
+              <Img fluid={data.cardImg3.childImageSharp.fluid} alt="..." objectFit="cover" objectPosition="50% 50%" fadeIn className="indexInfoCardImg w-100 h-100 rounded" />
             </Col>
           </Row>
         </Card>
       </Row>
 
       <Row className="mb-2 px-md-3">
-        <h3 className="text-pink" style={{fontSize: '1.95em'}}>Read my blog:</h3>
+        <h3 className="text-pink" style={{fontSize: '1.95em'}}>Latest blog posts:</h3>
       </Row>
 
       <Row className="mb-1 mb-md-2 mb-lg-3">
@@ -132,7 +132,7 @@ const BlogIndex = ({ data, location }) => {
                       }}
                     />
                   </section>
-                  <Link to={node.fields.slug} className="btn btn-info">Read more</Link>
+                  <Link to={node.fields.slug} className="btn btn-outline-info rounded-pill">Read more</Link>
                 </Card.Body>
               </Card>
             </div>
@@ -142,7 +142,7 @@ const BlogIndex = ({ data, location }) => {
       </Row>
 
       <Row className="justify-content-center mb-4 mb-lg-5">
-        <Link to='/blog' className="btn btn-lg btn-info">See all blog posts</Link>
+        <Link to='/blog' className="btn btn-lg btn-info rounded-pill">See all blog posts</Link>
       </Row>
 
     </Layout>

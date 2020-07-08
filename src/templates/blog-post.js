@@ -43,14 +43,14 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         <ul className="py-4 py-md-5 d-flex flex-wrap justify-content-between list-unstyled">
           <li>
             {previous && (
-              <Link to={previous.fields.slug} rel="prev" className="btn btn-outline-info">
+              <Link to={previous.fields.slug} rel="prev" className="btn btn-outline-info rounded-pill">
                 ← {previous.frontmatter.title}
               </Link>
             )}
           </li>
           <li>
             {next && (
-              <Link to={next.fields.slug} rel="next" className="btn btn-outline-info">
+              <Link to={next.fields.slug} rel="next" className="btn btn-outline-info rounded-pill">
                 {next.frontmatter.title} →
               </Link>
             )}
