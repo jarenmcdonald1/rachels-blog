@@ -66,11 +66,11 @@ export default function ContactPage({ data, location }) {
             </Form.Group>
             <Form.Group>
               <Form.Label>Your name</Form.Label>
-              <Form.Control type="text" name="name" onChange={handleChange} />
+              <Form.Control type="text" name="name" onChange={handleChange} required />
             </Form.Group>
             <Form.Group>
               <Form.Label>Your email</Form.Label>
-              <Form.Control type="email" name="email" onChange={handleChange} />
+              <Form.Control type="email" name="email" onChange={handleChange} required />
             </Form.Group>
             <Form.Group>
               <Form.Label>Your message</Form.Label>
