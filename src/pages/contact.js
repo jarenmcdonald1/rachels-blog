@@ -74,7 +74,7 @@ export default function ContactPage({ data, location }) {
             </Form.Group>
             <Form.Group>
               <Form.Label>Your message</Form.Label>
-              <Form.Control as="textarea" name="message" onChange={handleChange} rows="3" />
+              <textarea className="form-control" name="message" onChange={handleChange} />
             </Form.Group>
             <div className="w-100 d-flex align-items-center justify-content-center">
               <Button variant="info" type="submit" size="lg">Submit Message</Button>
