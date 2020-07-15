@@ -4,7 +4,7 @@ import { navigate } from 'gatsby-link'
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { Row, Card, Form, Button } from "react-bootstrap"
+import { Row, Col, Card, Form, Button } from "react-bootstrap"
 import '../styles/index.scss'
 import contactInfo from '../../site/settings/contact_info.json'
 
@@ -44,11 +44,15 @@ export default function ContactPage({ data, location }) {
       <SEO title="Contact" />
       <Row>
         <Card className="bg-light w-100 px-3 px-md-4 px-lg-5 py-4">
-        <Card.Body className="border-bottom mb-3">
+        <Row className="align-items-center justify-content-center">
+        <Col xs={12} lg={6}>
+        <Card.Body className="mb-3">
           <Card.Title className="text-pink" style={{fontSize: '1.95em'}}>Let's Chat</Card.Title>
           <Card.Text>Ask away! Over tea, kale chips, or smoothie bowls...your choice. If you're looking for a way to live a healthier lifestyle, start with an email and we'll set up a chat. You're one decision away from taking the next step.</Card.Text>
           <Card.Text><a href={`mailto:${contactInfo.email}`}>{contactInfo.email}</a></Card.Text>
         </Card.Body>
+        </Col>
+        <Col xs={12} lg={6}>
           <Form
             name="contact"
             method="post"
@@ -77,9 +81,11 @@ export default function ContactPage({ data, location }) {
               <textarea className="form-control" name="message" onChange={handleChange} />
             </Form.Group>
             <div className="w-100 d-flex align-items-center justify-content-center">
-              <Button variant="info" type="submit" size="lg">Submit Message</Button>
+              <Button variant="info" type="submit" size="lg" className="px-md-2 rounded-pill">Submit Message</Button>
             </div>
           </Form>
+          </Col>
+          </Row>
         </Card>
       </Row>
     </Layout>
