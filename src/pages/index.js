@@ -7,9 +7,6 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Row, Card, Col } from "react-bootstrap"
 import '../styles/index.scss'
-//import contactInfo from '../../site/settings/contact_info.json'
-
-//{contactInfo.email}
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
