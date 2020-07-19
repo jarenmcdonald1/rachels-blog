@@ -34,9 +34,9 @@ Now knowing all these wonderful things, aren't you kinda ready for a smoothie bo
 
 
 
-
-
 ## DRAGON FRUIT SMOOTHIE BOWL
+
+
 
 ![DRAGON FRUIT SMOOTHIE BOWLS](photo-1539574610665-dc92264e9c4f.jpeg "DRAGON FRUIT SMOOTHIE BOWLS")
 
@@ -46,13 +46,13 @@ Keyword: antioxidants, healthy breakfast, protein, superfood, macronutrients, ri
 
 
 
-### Equipment
+**EQUIPTMENT**
 
 * Blender
 
 
 
-### Ingredients
+**INGREDIENTS**
 
 * 1/3 cup oat milk or your milk of choice
 * 3/4 cup frozen dragon fruit (you can sub in whatever frozen fruit you would like)
@@ -64,7 +64,7 @@ Keyword: antioxidants, healthy breakfast, protein, superfood, macronutrients, ri
 
 
 
-### **Instructions**
+**INSTRUCTIONS**
 
 1. To a [](https://aax-us-east.amazon-adsystem.com/x/c/QjdMSSh2ihB0If1LrOJONjQAAAFvJGsYQgEAAAFKAaskUBE/https://www.amazon.com/gp/product/B008H4SLV6/?creativeASIN=B008H4SLV6&linkCode=w61&imprToken=1fljsCQ49EOk6Enre1pi1w&slotNum=11)blender, add frozen dragon fruit, frozen raspberries, banana, avocado, spinach, protein powder, and dairy-free milk (starting with lower end of range). Blend until creamy and smooth. The trick to a thick smoothie bowl is being patient and blending slowly, adding only as much liquid as necessary, and using a smoothie wand (or something comparable that's blender safe) to scrape the sides down as it blends.
 2. Taste and adjust flavour as needed, adding more banana for sweetness, dairy-free milk for creaminess, or berries for more intense berry flavour.
