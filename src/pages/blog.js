@@ -20,7 +20,9 @@ const BlogMain = ({ data, location }) => {
           return (
             <div className="blogListPost mb-3 mb-md-4 mb-lg-5">
               <Card key={node.fields.slug} className="w-100 h-100">
+              <Link to={node.fields.slug}>
                 <Img className="card-img blogListPostImg" objectFit fadeIn fluid={node.frontmatter.thumbnail.childImageSharp.fluid} alt={node.frontmatter.title} />
+            </Link>
                 <Card.Body>
                   <Card.Title>
                     <Link to={node.fields.slug} className="text-dark h3">
