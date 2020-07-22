@@ -1,5 +1,5 @@
 ---
-title: MY FAVOURITE SMOOTHIE BOWL RECIPES
+title: MY FAVOURITE SMOOTHIE BOWL RECIPE
 date: 2020-07-19T19:04:49.617Z
 description: Summer has me in the mood for endless smoothie bowls!
 thumbnail: photo-1539574610665-dc92264e9c4f.jpeg
@@ -8,13 +8,9 @@ I’ve been obsessed with smoothie bowls lately...
 
 <br>
 
-
-
 Maybe it's because I've never loved breakfast foods, and this just seems like a breakfast ice cream...? Who knows?
 
 <br>
-
-
 
 Smoothie bowls are amazing for so many reasons;
 
@@ -30,8 +26,6 @@ Smoothie bowls are amazing for so many reasons;
 
   * Foods that tend to be richer in colour also tend to be richer in **antioxidants** (antioxidants are compounds that prevent oxidation. Oxidation is a chemical reaction that can produce free radicals, of which can damage cells). By adding fruit that is antioxidant-rich can make for an all-around boost for your cells, to prevent damage caused by free radicals.
 
-  <br>
-
 Now knowing all these wonderful things, aren't you kinda ready for a smoothie bowl? Here's my current favourite recipe, totally customizable of course!
 
 <br>
@@ -39,8 +33,6 @@ Now knowing all these wonderful things, aren't you kinda ready for a smoothie bo
 <br>
 
 <br>
-
-
 
 ## DRAGON FRUIT SMOOTHIE BOWL
 
@@ -58,13 +50,7 @@ Now knowing all these wonderful things, aren't you kinda ready for a smoothie bo
 
 <br>
 
-
-
 ##### Prep Time: 10 mins
-
-
-
-
 
 ##### **Keywords:** antioxidants, healthy breakfast, protein, superfood, macronutrients, rich, whole foods
 
@@ -87,8 +73,6 @@ Now knowing all these wonderful things, aren't you kinda ready for a smoothie bo
 * 3/4 cup scoop Sunwarrior Vanilla Protein Powder or protein powder of your choice (preferably a vegetarian source)
 
 <br>
-
-
 
 #### **INSTRUCTIONS**
 
