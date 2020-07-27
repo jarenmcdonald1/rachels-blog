@@ -34,7 +34,11 @@ Now knowing all these wonderful things, aren't you kinda ready for a smoothie bo
 
 <br>
 
+---
+
 ## DRAGON FRUIT SMOOTHIE BOWL
+
+---
 
 <br>
 
@@ -50,13 +54,17 @@ Now knowing all these wonderful things, aren't you kinda ready for a smoothie bo
 
 <br>
 
+---
+
 ##### Prep Time: 10 mins
 
 ##### **Keywords:** antioxidants, healthy breakfast, protein, superfood, macronutrients, rich, whole foods
 
+---
+
 **<br>**
 
-#### **EQUIPMENT**
+**EQUIPMENT**
 
 * Blender
 
