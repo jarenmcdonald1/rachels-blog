@@ -1,5 +1,5 @@
 ---
-title: DAILY RITUALS TO BOOST YOUR IMMUNE SYSTEM
+title: THE IMMUNE SYSTEM & HOW TO LEND IT A HELPING HAND
 date: 2020-07-27T12:29:55.975Z
 description: We all need strong immune systems, here's how the immune system
   works and some small practices that can make all the difference!
@@ -48,11 +48,9 @@ Some factors that heavily impact the immune system;
    While we rest it gives our bodies time to assess danger and prevent any threats from creating any damage. 
 
    <br>
-
-
 2. **STRESS**
 
-   Ongoing stress makes us all more susceptible to illness and disease, as the brain reacts to stressors by sending a defense signal to the endocrine system. This raises the cortisol levels (fight or flight response), along with an array of other hormones that prepares us for emergency situations but also severeley decreases immune system function at the same time. 
+   Ongoing stress makes us all more susceptible to illness and disease, as the brain reacts to stressors by sending a defense signal to the endocrine system. This raises the cortisol levels (fight or flight response), along with an array of other hormones that prepares us for emergency situations but also severely decreases immune system function at the same time. 
 
    Finding methods such as meditation, deep breathing, exercising, journaling, etc that calm us in times of stress is vital to keep the immune system functioning at optimal levels. 
 
@@ -74,6 +72,8 @@ Some factors that heavily impact the immune system;
 
    As a nutritionist, I always recommend as I like to say **"eating the rainbow**" meaning, you are eating a variety of fruits and vegetables that range in colour. This is because each colour profile becomes rich in a certain type of micronutrient, vitamin, and mineral. In order to make sure we are always getting a variety and not only getting a few fro the list ensure we have a colourful diet, can make a huge difference. 
 
+   <br>
+
    When speaking specifically about immunity three micronutrients stick out as extremely beneficial;
 
    <br>
@@ -83,15 +83,19 @@ Some factors that heavily impact the immune system;
    * Vitamin C stimulates the body's defense mechanisms against specific invaders. It also decreases inflammation which makes more room for free-flowing cells to pass through and heal the body. 
    * Vitamin C is a potent antioxidant, meaning it targets and eliminates free radicals that can cause damage to your body.
 
-     <br>
+   <br>
 
    **VITAMIN D**
 
    * Deficiencies in Vitamin D can lead to a suppressed immune system and immune system function.
    * One of the main functions of Vitamin D is to activate the T-cells [](https://www.sciencedaily.com/releases/2010/03/100307215534.htm)aka the "killer cells" in the body. T cells actually detect and destroy foreign pathogens, like viruses.
 
-     <br>
-
-
+   <br>
 
    **ZINC**
+
+   * This mineral affects your body’s ability to make immune cells and produce antibodies that are necessary for the immune response.
+   * Without enough zinc, your body can’t make and activate immune system cells like T-lymphocytes; white blood cells that shut down infected cells.
+   * Zinc also has antioxidant functions and can help to rid the body of free radicals that can cause damage. 
+
+<br>
