@@ -59,6 +59,8 @@ Some factors that heavily impact the immune system;
 
    * Give yourself a nighttime routine. Try to go to bed at the same time and rise at the same time every day to give your body the most powerful night's sleep to complete all of the healing that happens during this time.
    * Keep yourself away from screens for at least an hour before going to bed. This will decrease the stimulation you receive from screens, and instead promote melatonin, the night time hormone that eases us into sleep. 
+
+     <br>
 2. **STRESS**
 
    Ongoing stress makes us all more susceptible to illness and disease, as the brain reacts to stressors by sending a defense signal to the endocrine system. This raises the cortisol levels (fight or flight response), along with an array of other hormones that prepares us for emergency situations but also severely decreases immune system function at the same time. 
@@ -92,6 +94,8 @@ Lastly, a diet rich in an abundance of micronutrients, vitamins, and minerals in
 
 As a nutritionist, I always recommend as I like to say **"eating the rainbow**" meaning, you are eating a variety of fruits and vegetables that range in colour. This is because each colour profile becomes rich in a certain type of micronutrient, vitamin, and mineral. In order to make sure we are always getting a variety and not only getting a few fro the list ensure we have a colourful diet, can make a huge difference. 
 
+<br>
+
 - - -
 
    When speaking specifically about immunity three micronutrients stick out as extremely beneficial;
@@ -105,9 +109,13 @@ As a nutritionist, I always recommend as I like to say **"eating the rainbow**" 
 * Vitamin C stimulates the body's defense mechanisms against specific invaders. It also decreases inflammation which makes more room for free-flowing cells to pass through and heal the body. 
 * Vitamin C is a potent antioxidant, meaning it targets and eliminates free radicals that can cause damage to your body.
 
+  <br>
+
    **VITAMIN D**
 * Deficiencies in Vitamin D can lead to a suppressed immune system and immune system function.
 * One of the main functions of Vitamin D is to activate the T-cells [](https://www.sciencedaily.com/releases/2010/03/100307215534.htm)aka the "killer cells" in the body. T cells actually detect and destroy foreign pathogens, like viruses.
+
+  <br>
 
    **ZINC**
 * This mineral affects your body’s ability to make immune cells and produce antibodies that are necessary for the immune response.
