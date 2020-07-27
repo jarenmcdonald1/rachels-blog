@@ -11,7 +11,7 @@ Okay, so I know we all think we know what our immune system does...right?
 
 <br>
 
-I'm sure you know that it fight **illness** and **disease** off to ensure your body remains at an optimal functional level. However, the process is far more complicated than that. 
+I'm sure you know that it fights **illness** and **disease** off to ensure your body remains at an optimal functional level. However, the process is far more complicated than that. 
 
 <br>
 
