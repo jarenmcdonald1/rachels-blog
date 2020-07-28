@@ -18,13 +18,20 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         description={post.frontmatter.description || post.excerpt}
       />
 
-      <Row className="mb-3 mb-md-4">
-        <Card className="w-100 border-0 text-white blogBannerCon">
-          <Img fluid={data.markdownRemark.frontmatter.thumbnail.childImageSharp.fluid} alt={post.frontmatter.title} className="w-100 h-100 card-img" objectFit fadeIn />
-          <Card.ImgOverlay className="d-flex align-items-center justify-content-center">
-            <Card.Title className="display-4 font-weight-bold text-shadow text-center">{post.frontmatter.title}</Card.Title>
+      <Row className="d-none mb-3 mb-md-4 blogBannerCon">
+        <Card className="w-100 border-0 text-white">
+          <Img fluid={data.markdownRemark.frontmatter.thumbnail.childImageSharp.fluid} alt={post.frontmatter.title} className="card-img blogBannerImg" fadeIn />
+          <Card.ImgOverlay className="text-center">
+            <Card.Title className="blogBannerText display-4 font-weight-bold text-shadow">{post.frontmatter.title}</Card.Title>
           </Card.ImgOverlay>
         </Card>
+      </Row>
+
+      <Row className="mb-3 mb-md-4 blogBannerCon">
+        <Img fluid={data.markdownRemark.frontmatter.thumbnail.childImageSharp.fluid} alt={post.frontmatter.title} className="blogBannerImg rounded" fadeIn />
+        <div className="blogBannerText d-flex align-items-center justify-content-center py-3 px-sm-3 px-lg-5">
+          <h4 className="display-4 text-white text-center font-weight-bold text-shadow">{post.frontmatter.title}</h4>
+        </div>
       </Row>
 
       <Row className="mb-3 mb-md-4 mb-lg-5">
