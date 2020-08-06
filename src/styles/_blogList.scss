@@ -6,6 +6,17 @@
     max-width: 100%;
 }
 
+.blogListPostImg {
+    max-height: 275px;
+}
+
+@media only screen and (min-width: 768px) {
+    .blogListPostImg {
+        max-height: none;
+        height: 300px;
+    }
+}
+
 @media only screen and (min-width: 992px) {
     .blogListPost {
         position: relative;
@@ -18,24 +29,10 @@
             flex: 0 0 100%;
         }
     }
-}
 
-.blogListPostImg {
-    max-height: 250px;
-}
-
-@media only screen and (min-width: 768px) {
-    .blogListPostImg {
-        max-height: 350px;
-    }
-}
-
-@media only screen and (min-width: 992px) {
-    .blogListPostImg {
-        max-height: 300px;
-
-        &:first-child {
-            max-height: 400px;
+    .blogListPost:first-child {
+        .blogListPostImg {
+            height: 450px;
         }
     }
 }
