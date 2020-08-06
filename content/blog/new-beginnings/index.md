@@ -1,111 +1,59 @@
 ---
-title: New Beginnings
+title: My Very First Blog Post!
 date: 2015-05-28T22:40:32.169Z
-description: This is a custom description for SEO and Open Graph purposes,
-  rather than the default generated excerpt. Simply add a description field to
-  the frontmatter.
-thumbnail: pexels-photo-1853003.jpeg
+description: "Let's get to know each other! "
+thumbnail: img_1930.jpg
 ---
+<br>
 
-Far far away, behind the word mountains, far from the countries Vokalia and
-Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-right at the coast of the Semantics, a large language ocean. A small river named
-Duden flows by their place and supplies it with the necessary regelialia.
+Hey Everyone! 
 
-## On deer horse aboard tritely yikes and much
+<br>
 
-The Big Oxmox advised her not to do so, because there were thousands of bad
-Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
-didn’t listen. She packed her seven versalia, put her initial into the belt and
-made herself on the way.
+<br>
 
-- This however showed weasel
-- Well uncritical so misled
-  - this is very interesting
-- Goodness much until that fluid owl
+Welcome to my Blog! 
 
-When she reached the first hills of the **Italic Mountains**, she had a last
-view back on the skyline of her hometown _Bookmarksgrove_, the headline of
-[Alphabet Village](http://google.com) and the subline of her own road, the Line
-Lane. Pityful a rhetoric question ran over her cheek, then she continued her
-way. On her way she met a copy.
+I'm so excited you're here.  
 
-### Overlaid the jeepers uselessly much excluding
+<br>
 
-But nothing the copy said could convince her and so it didn’t take long until a
-few insidious Copy Writers ambushed her, made her drunk with
-[Longe and Parole](http://google.com) and dragged her into their agency, where
-they abused her for their projects again and again. And if she hasn’t been
-rewritten, then they are still using her.
+I was thinking long and hard about what my first blog post should be, and I figured what better way to start this blogging journey with a little meet and greet of the person on the other side of these key strokes...ME! 
 
-> Far far away, behind the word mountains, far from the countries Vokalia and
-> Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-> right at the coast of the Semantics, a large language ocean.
+<br>
 
-It is a paradisematic country, in which roasted parts of sentences fly into your
-mouth. Even the all-powerful Pointing has no control about the blind texts it is
-an almost unorthographic life One day however a small line of blind text by the
-name of Lorem Ipsum decided to leave for the far World of Grammar.
+<br>
 
-### According a funnily until pre-set or arrogant well cheerful
+![](img_0280.jpg "Smiling Selfie")
 
-The Big Oxmox advised her not to do so, because there were thousands of bad
-Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
-didn’t listen. She packed her seven versalia, put her initial into the belt and
-made herself on the way.
+<br>
 
-1.  So baboon this
-2.  Mounted militant weasel gregariously admonishingly straightly hey
-3.  Dear foresaw hungry and much some overhung
-4.  Rash opossum less because less some amid besides yikes jeepers frenetic
-    impassive fruitlessly shut
+<br>
 
-When she reached the first hills of the Italic Mountains, she had a last view
-back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet
-Village and the subline of her own road, the Line Lane. Pityful a rhetoric
-question ran over her cheek, then she continued her way. On her way she met a
-copy.
+My name is Rachel McDonald. 
 
-> The copy warned the Little Blind Text, that where it came from it would have
-> been rewritten a thousand times and everything that was left from its origin
-> would be the word "and" and the Little Blind Text should turn around and
-> return to its own, safe country.
+<br>
 
-But nothing the copy said could convince her and so it didn’t take long until a
-few insidious Copy Writers ambushed her, made her drunk with Longe and Parole
-and dragged her into their agency, where they abused her for their projects
-again and again. And if she hasn’t been rewritten, then they are still using
-her. Far far away, behind the word mountains, far from the countries Vokalia and
-Consonantia, there live the blind texts.
+I am a Certified Nutritional Practitioner (CNP), Professional Dancer, a Dance Instructor, and Choreographer. 
 
-#### Silent delightfully including because before one up barring chameleon
+<br>
 
-Separated they live in Bookmarksgrove right at the coast of the Semantics, a
-large language ocean. A small river named Duden flows by their place and
-supplies it with the necessary regelialia. It is a paradisematic country, in
-which roasted parts of sentences fly into your mouth.
+For as long as I can remember I have been interested in all things health and wellness. I was really lucky growing up with my three siblings. My mom has passed down a deep passion for keeping us all healthy (which by the way - was no easy feat). We were the kids that went to school with Chlorophyll water, or swamp water, as the kids used to call it. I can say I didn't realize how much of an impact this had made on me at the time, and how it would later impact the rest of my life.
 
-Even the all-powerful Pointing has no control about the blind texts it is an
-almost unorthographic life One day however a small line of blind text by the
-name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox
-advised her not to do so, because there were thousands of bad Commas, wild
-Question Marks and devious Semikoli, but the Little Blind Text didn’t listen.
+<br>
 
-##### Wherever far wow thus a squirrel raccoon jeez jaguar this from along
+Just like with health and wellness, dance has been a part of my life for a very very long time. I was lucky enough to be enrolled as just a wee munchkin. I fell in love early with the difficulty of the sport, but also how the actual level of difficulty was always masked by this beautiful graceful movement. 
 
-She packed her seven versalia, put her initial into the belt and made herself on
-the way. When she reached the first hills of the Italic Mountains, she had a
-last view back on the skyline of her hometown Bookmarksgrove, the headline of
-Alphabet Village and the subline of her own road, the Line Lane. Pityful a
-rhetoric question ran over her cheek, then she continued her way. On her way she
-met a copy.
+I danced all throughout my school years, and dance provided me with so many life skills and experiences. I learned so much about myself in these years. My level of dedication to myself to improve but also the level of discipline to continue working with my team to improve as a whole. 
 
-###### Slapped cozy a that lightheartedly and far
+<br>
 
-The copy warned the Little Blind Text, that where it came from it would have
-been rewritten a thousand times and everything that was left from its origin
-would be the word "and" and the Little Blind Text should turn around and return
-to its own, safe country. But nothing the copy said could convince her and so it
-didn’t take long until a few insidious Copy Writers ambushed her, made her drunk
-with Longe and Parole and dragged her into their agency, where they abused her
-for their projects again and again.
+I loved dance so much I wasn't ready to give it up at the end of highschool. I decided instead to continue training and enrolled in a Professional Intense Dance Training program. This intense program is when I began to experience digestive issues. I would curl up into a little ball with intense abdominal pain! With no clear answer, I tried to eliminate some known allergens. I noticed an immediate improvement in heightened energy levels and an overall stronger body. This allowed me to push my body technically and physically which took my performance to the next level.
+
+<br>
+
+From there my passion for nutrition took the centre stage. I decided to attend The Institute of Holistic Nutrition where I would deep dive into all things health-related. I graduated and gained my Certified Nutritional Practitioner Certification (CNP, Hons.)
+
+<br>
+
+![](img_4103.jpg)
