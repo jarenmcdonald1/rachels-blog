@@ -46,6 +46,9 @@ For as long as I can remember I have been interested in all things health and we
 
 <br>
 
+---
+<br>
+
 My family is the most important thing to me. 
 
 Growing up with three siblings was the absolute best thing. I grew up with my three best friends, what more could a girl want!? 
