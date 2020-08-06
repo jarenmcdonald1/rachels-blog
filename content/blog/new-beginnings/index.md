@@ -22,15 +22,15 @@ I was thinking long and hard about what my first blog post should be, and I figu
 
 <br>
 
----
+- - -
 
 <br>
 
-![](img_0280.jpg "Smiling Selfie")
+![](img_3961.jpg "Smiling")
 
 <br>
 
----
+- - -
 
 <br>
 
@@ -66,7 +66,7 @@ From there my passion for nutrition took the centre stage. I decided to attend T
 
 <br>
 
----
+- - -
 
 <br>
 
@@ -74,7 +74,7 @@ From there my passion for nutrition took the centre stage. I decided to attend T
 
 <br>
 
----
+- - -
 
 <br>
 
@@ -84,7 +84,7 @@ There was a time where travel did not feel like a priority for me, but in recent
 
 <br>
 
----
+- - -
 
 <br>
 
@@ -92,7 +92,7 @@ There was a time where travel did not feel like a priority for me, but in recent
 
 <br>
 
----
+- - -
 
 <br>
 
@@ -100,19 +100,15 @@ I was lucky enough to get to travel on these trips with the people I love the mo
 
 Getting to be surrounded by a different culture, nature which looks so unfamiliar to nature here, at home, and people that have a different approach to life teaches you more than you could ever learn from a book. 
 
-
-
 Enriching yourself in culture, and learning about these countries' histories makes the trips feel so much more real and connected. 
 
 Plus who doesn't love some serious heat?!
-
-
 
 I know I certainly do! I could definitely see myself taking some time and living in either of these places for a while.
 <br>
 <br>
 
----
+- - -
 
 <br>
 
