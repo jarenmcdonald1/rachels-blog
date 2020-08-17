@@ -47,6 +47,8 @@ For me, I wanted to create a fun way to enjoy the sweetness in the morning witho
 I've said it before and I'll say it again, breakfast isn't my favourite meal, but the more I look for in season and fresh ingredients to add to my breakfast the more I appreciate breakfast and all it's benefits throughout my day. 
 <br>
 
+<br>
+
 - - -
 
 ![display](img_1871.jpg "display")
@@ -124,7 +126,7 @@ I've said it before and I'll say it again, breakfast isn't my favourite meal, bu
 
 ![add in](img_2013.jpg "add in")
 
----
+- - -
 
 <br>
 As always, make adjustments, play around and have fun mkaing this! 
