@@ -8,8 +8,6 @@ import { Row, Col, Card, Form, Button } from "react-bootstrap"
 import '../styles/index.scss'
 import contactInfo from '../../site/settings/contact_info.json'
 
-//{contactInfo.email}
-
 function encode(data) {
   return Object.keys(data)
     .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
@@ -81,7 +79,7 @@ export default function ContactPage({ data, location }) {
               <textarea className="form-control" name="message" onChange={handleChange} />
             </Form.Group>
             <div className="w-100 d-flex align-items-center justify-content-center">
-              <Button variant="info" type="submit" size="lg" className="px-md-2 rounded-pill">Submit Message</Button>
+              <Button variant="info" type="submit" size="lg" className="px-md-3 px-lg-4 rounded-pill">Submit Message</Button>
             </div>
           </Form>
           </Col>

@@ -28,22 +28,22 @@ const Header = () => {
           <Navbar.Toggle aria-controls="navbarResponsive" className="border-secondary rounded-lg" />
           <Navbar.Collapse id="navbarResponsive">
             <Nav as="ul" className="ml-auto">
-              <Nav.Item as="li" className="py-3 py-md-0 text-center navItemStyle">
+              <Nav.Item as="li" className="py-3 py-md-0 px-md-2 text-center navItemStyle">
                 <Link to="/#aboutCon" className="nav-link" activeClassName="active">
                   About
                 </Link>
               </Nav.Item>
-              <Nav.Item as="li" className="py-3 py-md-0 text-center navItemStyle">
+              <Nav.Item as="li" className="py-3 py-md-0 px-md-2 text-center navItemStyle">
                 <Link to="/#servicesCon" className="nav-link" activeClassName="active">
                   Services
                 </Link>
               </Nav.Item>
-              <Nav.Item as="li" className="py-3 py-md-0 text-center navItemStyle">
+              <Nav.Item as="li" className="py-3 py-md-0 px-md-2 text-center navItemStyle">
                 <Link to="/blog" className="nav-link" activeClassName="active">
                   Blog
                 </Link>
               </Nav.Item>
-              <Nav.Item as="li" className="py-3 py-md-0 text-center navItemStyle">
+              <Nav.Item as="li" className="py-3 py-md-0 px-md-2 text-center navItemStyle">
                 <Link to="/contact" className="nav-link" activeClassName="active">
                   Contact
                 </Link>
