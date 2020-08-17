@@ -1,6 +1,6 @@
 ---
 title: MY VERY FIRST BLOG POST!
-date: 2020-08-06T03:27:18.502Z
+date: 2020-06-04T03:27:18.502Z
 description: "Let's get to know each other! "
 thumbnail: img_3421.jpg
 ---
