@@ -49,14 +49,14 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
 
       <Row>
         <nav className="w-100 pt-3 d-flex flex-wrap align-items-center justify-content-between">
-          <div>
+          <div className="mb-1">
             {previous && (
               <Link to={previous.fields.slug} rel="prev" className="btn btn-outline-info rounded-pill">
                 <FaChevronLeft aria-hidden="true" title="go to previous article" className="mb-1 mr-1" /> {previous.frontmatter.title}
               </Link>
             )}
           </div>
-          <div>
+          <div className="mb-1">
             {next && (
               <Link to={next.fields.slug} rel="next" className="btn btn-outline-info rounded-pill">
                 {next.frontmatter.title} <FaChevronRight aria-hidden="true" title="go to next article" className="mb-1 ml-1" />

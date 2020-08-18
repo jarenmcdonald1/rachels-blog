@@ -47,7 +47,7 @@ function encode(data) {
     }
   
     return (
-        <section className="mt-4 mt-lg-5 bg-light">
+        <section className="mt-3 mt-lg-4 bg-light">
             <Container className="py-4 py-lg-5">
                 <Row className="d-block mb-4 px-3 px-md-2" id="subInputText">
                     <h2>Subscribe to my newsletter!</h2>

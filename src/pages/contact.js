@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 import { Row, Col, Card, Form, Button } from "react-bootstrap"
 import '../styles/index.scss'
 import contactInfo from '../../site/settings/contact_info.json'
-import { FaPaperPlane } from 'react-icons/fa'
+import { FaPaperPlane, FaInstagram, FaEnvelope } from 'react-icons/fa'
 
 function encode(data) {
   return Object.keys(data)
@@ -48,7 +48,8 @@ export default function ContactPage({ data, location }) {
         <Card.Body className="mb-3">
           <Card.Title className="text-pink" style={{fontSize: '1.95em'}}>Let's Chat</Card.Title>
           <Card.Text>Ask away! Over tea, kale chips, or smoothie bowls...your choice. If you're looking for a way to live a healthier lifestyle, start with an email and we'll set up a chat. You're one decision away from taking the next step.</Card.Text>
-          <Card.Text><a href={`mailto:${contactInfo.email}`}>{contactInfo.email}</a></Card.Text>
+          <Card.Text><FaEnvelope size="2x" style={{maxWidth:'30px'}} className="mr-2 mb-1" aria-hidden="true" title="email icon" /> <a href={`mailto:${contactInfo.email}`}>{contactInfo.email}</a></Card.Text>
+          <Card.Text><FaInstagram size="2x" style={{maxWidth:'30px'}} className="mr-2 mb-1" aria-hidden="true" title="instagram logo" /> <a href={`${contactInfo.instagram}`}>Follow me on Instagram</a></Card.Text>
         </Card.Body>
         </Col>
         <Col xs={12} lg={6}>

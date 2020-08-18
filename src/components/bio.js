@@ -2,6 +2,8 @@ import React from "react"
 import { useStaticQuery, graphql, Link } from "gatsby"
 import Img from "gatsby-image"
 import { Card, Row, Col } from "react-bootstrap"
+import { FaInstagram } from 'react-icons/fa'
+import contactInfo from '../../site/settings/contact_info.json'
 import '../styles/index.scss'
 
 const Bio = () => {
@@ -39,7 +41,10 @@ const Bio = () => {
             <Card.Text className="h4 text-muted mb-3">I’m a Holistic Nutritionist, Professional Dancer, and Instructor/Choreographer.</Card.Text>
             <Card.Text>My whole life I have been interested in health and wellness. The passion was handed down from my mom who would send me to school with Chlorophyll water (thanks, mom!). While I was completing my Professional Intense Dance Training program I began to experience digestive issues. I would curl up into a little ball with intense abdominal pain! With no clear answer, I tried to eliminate some known allergens. I noticed an immediate improvement in heightened energy levels and stronger body. This allowed me to push my body technically and physically which took my performance to the next level.</Card.Text>
             <Card.Text>From there my passion for nutrition took the centre stage. I decided to attend The Institute of Holistic Nutrition where I would deep dive into all things health-related. I graduated and gained my Certified Nutritional Practitioner Certification (CNP, Hons.)</Card.Text>
-            <Link to="/contact" className="btn btn-lg btn-info rounded-pill">Let's chat</Link>
+            <div className="d-flex flex-wrap">
+              <Link to="/contact" className="btn btn-lg btn-info rounded-pill mr-3">Let's chat</Link>
+              <a href={`${contactInfo.instagram}`} title="link to my instagram" className="btn btn-info btn-lg rounded-pill"><FaInstagram aria-hidden="true" title="instagram logo" className="mb-1 mr-1" /> Follow me on Instagram</a>
+            </div>
           </Card.Body>
         </Col>
       </Row>
