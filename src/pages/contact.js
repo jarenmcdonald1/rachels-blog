@@ -7,6 +7,7 @@ import SEO from "../components/seo"
 import { Row, Col, Card, Form, Button } from "react-bootstrap"
 import '../styles/index.scss'
 import contactInfo from '../../site/settings/contact_info.json'
+import { FaPaperPlane } from 'react-icons/fa'
 
 function encode(data) {
   return Object.keys(data)
@@ -79,7 +80,7 @@ export default function ContactPage({ data, location }) {
               <textarea className="form-control" name="message" onChange={handleChange} />
             </Form.Group>
             <div className="w-100 d-flex align-items-center justify-content-center">
-              <Button variant="info" type="submit" size="lg" className="px-md-3 px-lg-4 rounded-pill">Submit Message</Button>
+              <Button variant="info" type="submit" size="lg" className="px-md-3 px-lg-4 rounded-pill">Submit Message <FaPaperPlane className="ml-2 mb-1" aria-hidden="true" title="paper plane arrow" /></Button>
             </div>
           </Form>
           </Col>

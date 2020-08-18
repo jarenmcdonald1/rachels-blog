@@ -5,6 +5,7 @@ import Img from 'gatsby-image'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Row, Card } from 'react-bootstrap'
+import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.markdownRemark
@@ -46,24 +47,24 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         </article>
       </Row>
 
-      <nav>
-        <ul className="py-4 py-md-5 d-flex flex-wrap justify-content-between list-unstyled">
-          <li>
+      <Row>
+        <nav className="w-100 pt-3 d-flex flex-wrap align-items-center justify-content-between">
+          <div>
             {previous && (
               <Link to={previous.fields.slug} rel="prev" className="btn btn-outline-info rounded-pill">
-                ← {previous.frontmatter.title}
+                <FaChevronLeft aria-hidden="true" title="go to previous article" className="mb-1 mr-1" /> {previous.frontmatter.title}
               </Link>
             )}
-          </li>
-          <li>
+          </div>
+          <div>
             {next && (
               <Link to={next.fields.slug} rel="next" className="btn btn-outline-info rounded-pill">
-                {next.frontmatter.title} →
+                {next.frontmatter.title} <FaChevronRight aria-hidden="true" title="go to next article" className="mb-1 ml-1" />
               </Link>
             )}
-          </li>
-        </ul>
-      </nav>
+          </div>
+        </nav>
+      </Row>
     </Layout>
   )
 }

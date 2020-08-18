@@ -8,7 +8,7 @@ module.exports = {
     description: `RMD Holistics is designed to educate people, families, and a special focus on athletes and dancers. I have the experience of the conflict the body feels being pushed without the nutrition your individual body needs and the painful ways the body reacts.`,
     siteUrl: `https://rachelsblog-test.netlify.app/`,
     social: {
-      twitter: ` `,
+      instagram: `https://www.instagram.com/rmdholistics/`,
     },
   },
   plugins: [
