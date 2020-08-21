@@ -11,7 +11,6 @@ const SEO = ({ description, lang, meta, title }) => {
           siteMetadata {
             title
             description
-            keywords
             social {
               instagram
             }
@@ -34,10 +33,6 @@ const SEO = ({ description, lang, meta, title }) => {
         {
           name: `description`,
           content: metaDescription,
-        },
-        {
-          name: `keywords`,
-          content: site.siteMetadata.keywords.join(","),
         },
         {
           property: `og:title`,
