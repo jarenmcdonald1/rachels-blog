@@ -6,8 +6,6 @@ thumbnail: img_6473.jpg
 ---
 ## <br>
 
-- - -
-
 <br>
 
 Raise your hand if you love peaches...
