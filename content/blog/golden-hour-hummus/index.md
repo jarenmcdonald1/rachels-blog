@@ -30,7 +30,7 @@ For a snack, I will have a handful or two of veggies with a few dollops of hummu
 
 <br>
 
-##### **Pro Tip:** Cut up vegetables at the beginning of the week, to have for the week. I often do celery and carrots and add to a container with water.
+**Pro Tip:** Cut up vegetables at the beginning of the week, to have for the week. I often do celery and carrots and add to a container with water.
 
 <br>
 
@@ -52,7 +52,7 @@ Today, I’m going to share my...
 
 <br>
 
----
+- - -
 
 <br>
 
@@ -90,15 +90,15 @@ This hummus is awesome for so many reasons;
 
 - - -
 
-#### Prep Time
+##### Prep Time
 
 10 minutes
 
-#### Total Time
+##### Total Time
 
 10 minutes
 
-#### Servings
+##### Servings
 
 8 servings
 
