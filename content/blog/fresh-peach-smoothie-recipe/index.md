@@ -16,7 +16,17 @@ Raise your hand if you love peaches...
 
 - - -
 
+<br>
+
+
+
 ![peaches](img_0439.jpg "peaches")
+
+
+
+<br>
+
+
 
 - - -
 
@@ -39,7 +49,15 @@ For me, I wanted to create a fun way to enjoy the sweetness in the morning witho
 
 - - -
 
+
+
+<br>
+
+
+
 ![](img_0452.jpg)
+
+<br>
 
 - - -
 
@@ -51,6 +69,10 @@ I've said it before and I'll say it again, breakfast isn't my favourite meal, bu
 
 - - -
 
+<br>
+
+
+
 ![display](img_1871.jpg "display")
 
 <br>
@@ -61,6 +83,13 @@ I've said it before and I'll say it again, breakfast isn't my favourite meal, bu
 
 ## PEACH OAT SMOOTHIE
 
+<br>
+
+---
+
+<br>
+
+---
 <br>
 
 ![peachoatsmoothie](img_6473.jpg "peach oat smoothie")
@@ -102,13 +131,14 @@ I've said it before and I'll say it again, breakfast isn't my favourite meal, bu
 4. Continue blending until all incorporated. 
 5. Pour and Enjoy!  
 
+
+
+
 <br>
 
 - - -
 
 <br>
-
-- - -
 
 \* (*step 1)*
 
@@ -116,11 +146,15 @@ I've said it before and I'll say it again, breakfast isn't my favourite meal, bu
 
 - - -
 
+<br>
+
 \**(step 2)*
 
 ![all in blender](img_1854.jpg "all in blender")
 
 - - -
+
+<br>
 
 \**(step 3)*
 
@@ -139,4 +173,4 @@ Let me know what you create, and tag us at @rmdholistics on Instagram!
 
 All the best in health,
 
-Rachel xxx
+-Rachel xxx
