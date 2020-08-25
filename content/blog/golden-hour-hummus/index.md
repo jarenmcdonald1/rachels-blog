@@ -2,7 +2,7 @@
 title: GOLDEN HOUR HUMMUS
 date: 2020-08-28T13:00:00.000Z
 description: the best mid-day snack that will warm you from the inside out!
-thumbnail: img_0352.jpg
+thumbnail: hummus.jpg
 ---
 <br>
 
@@ -44,6 +44,16 @@ Today, I’m going to share my...
 
 <br>
 
+- - -
+
+<br>
+
+![](img_0353.jpg)
+
+<br>
+
+---
+
 <br>
 
 This hummus is awesome for so many reasons;
@@ -78,9 +88,7 @@ This hummus is awesome for so many reasons;
 
 <br>
 
----
-
-
+- - -
 
 #### Prep Time
 
