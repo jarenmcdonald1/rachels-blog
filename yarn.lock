@@ -7767,11 +7767,6 @@ gray-matter@^4.0.2:
     section-matter "^1.0.0"
     strip-bom-string "^1.0.0"
 
-gray-percentage@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/gray-percentage/-/gray-percentage-2.0.0.tgz#b72a274d1b1379104a0050b63b207dc53fe56f99"
-  integrity sha1-tyonTRsTeRBKAFC2OyB9xT/lb5k=
-
 gud@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/gud/-/gud-1.0.0.tgz#a489581b17e6a70beca9abe3ae57de7a499852c0"
@@ -15824,29 +15819,6 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
-
-typeface-merriweather@0.0.72:
-  version "0.0.72"
-  resolved "https://registry.yarnpkg.com/typeface-merriweather/-/typeface-merriweather-0.0.72.tgz#2b990f5293252052d51d170c82d3892319ff0555"
-  integrity sha512-gO0+fcZ1fTyKUsYY1ltYOOTI6FmBGeEdyIfeQg9NL8aInndk0feiJJVJsKHm/DiyYrnQEezraAQhz/KQoqMGtw==
-
-typeface-montserrat@0.0.75:
-  version "0.0.75"
-  resolved "https://registry.yarnpkg.com/typeface-montserrat/-/typeface-montserrat-0.0.75.tgz#b796d9c767ab8ed1343271985beb1e44b382b7b3"
-  integrity sha512-8ski20t3hdwu2T85pVfjK4jsDbwW8yWzd+LAKxYEmu+JVLVlB7G2yfmdKZz06pUwYCLVFvHvup+NYYulHDpE+w==
-
-typography-breakpoint-constants@^0.16.19:
-  version "0.16.19"
-  resolved "https://registry.yarnpkg.com/typography-breakpoint-constants/-/typography-breakpoint-constants-0.16.19.tgz#e0e89147749562cbb46ce76c47ff0f73372765e7"
-  integrity sha512-vXjfV9hwAXIOf5+U5GN137ahBkK+sj1TJu/5ksmP+8XB/D80lmGb/m0nKviWaQ3t7HLrK848VGrFS+6E2vcmVg==
-
-typography-theme-wordpress-2016@^0.16.19:
-  version "0.16.19"
-  resolved "https://registry.yarnpkg.com/typography-theme-wordpress-2016/-/typography-theme-wordpress-2016-0.16.19.tgz#de2ecf20fc4f51db9ca2b149a731d31d8ca9c9ab"
-  integrity sha512-J7AWs8mHQyCtAzvhTs1QcAuzv1QoYsue0xw5U430fBxUystWLQba9OphcycFshgDbm6B/k5ge0d4feYp9xOJ2A==
-  dependencies:
-    gray-percentage "^2.0.0"
-    typography-breakpoint-constants "^0.16.19"
 
 ua-parser-js@^0.7.18:
   version "0.7.21"
