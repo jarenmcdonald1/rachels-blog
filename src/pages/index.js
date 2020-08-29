@@ -15,7 +15,7 @@ const BlogIndex = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <SEO title="Home" />
 
-      <Row className="mb-4 mb-lg-5 pb-lg-5 justify-content-center align-item-center">
+      <Row className="mb-4 mb-md-5 pb-lg-5 justify-content-center align-item-center">
         <Card className="w-100 border-0 text-white">
           <Img className="card-img mb-3 mb-md-0 rounded w-100 indexBannerImg" fluid={data.bannerImg.childImageSharp.fluid} fadeIn objectFit alt="rachel in texas" />
           <Card.ImgOverlay className="d-flex align-items-center justify-content-center">
@@ -24,14 +24,14 @@ const BlogIndex = ({ data, location }) => {
         </Card>  
       </Row>
 
-      <Row className="mb-4 mb-lg-5 py-lg-5">
+      <Row className="mb-4 mb-md-5 pt-md-4 py-lg-5">
         <Bio />
       </Row>
 
-      <Row id="servicesCon" className="mb-4 mb-lg-5 py-lg-5">
+      <Row id="servicesCon" className="mb-4 mb-md-5 pt-md-4 py-lg-5">
         <Card className="w-100 border-0">
           <Row>
-            <Col md={8} className="d-flex justify-content-center align-items-center pr-md-2">
+            <Col md={7} lg={8} className="d-flex justify-content-center align-items-center pr-md-2">
               <Card.Body>
                 <Card.Title className="font-weight-bold text-pink" style={{fontSize: '1.95em'}}>What is RMD Holistics?</Card.Title>
                 <Card.Text>RMD Holistics focuses on a complete approach to health and wellness. Our Holistic approach assess issues by digging down to the root of the problem to heal what is underneath the surface.</Card.Text>
@@ -40,17 +40,17 @@ const BlogIndex = ({ data, location }) => {
                 <Card.Text>Learn how to promote overall health and prevent disease!</Card.Text>
               </Card.Body>
             </Col>
-            <Col md={4}>
+            <Col md={5} lg={4}>
               <Img fluid={data.cardImg1.childImageSharp.fluid} alt="..." objectFit="cover" objectPosition="50% 50%" fadeIn className="indexInfoCardImg w-100 h-100 rounded" />
             </Col>
           </Row>
         </Card>
       </Row>
 
-      <Row className="mb-4 mb-lg-5 py-lg-5">
+      <Row className="mb-4 mb-md-5 pt-md-4 py-lg-5">
         <Card className="w-100 border-0">
           <Row className="flex-md-row-reverse">
-            <Col md={8} className="d-flex justify-content-center align-items-center pl-md-2">
+            <Col md={7} lg={8} className="d-flex justify-content-center align-items-center pl-md-2">
               <Card.Body>
                 <Card.Title className="font-weight-bold text-pink" style={{fontSize: '1.95em'}}>Who we work with:</Card.Title>
                 <Card.Text>
@@ -65,17 +65,17 @@ const BlogIndex = ({ data, location }) => {
                 </Card.Text>
               </Card.Body>
             </Col>
-            <Col md={4}>
+            <Col md={5} lg={4}>
               <Img fluid={data.cardImg2.childImageSharp.fluid} alt="..." objectFit="cover" objectPosition="50% 50%" fadeIn className="indexInfoCardImg w-100 h-100 rounded" />
             </Col>
           </Row>
         </Card>
       </Row>
 
-      <Row className="mb-4 mb-lg-5 py-lg-5">
+      <Row className="mb-4 mb-md-5 pt-md-4 py-lg-5">
         <Card className="w-100 border-0">
           <Row>
-            <Col md={8} className="d-flex justify-content-center align-items-center pr-md-2">
+            <Col md={7} lg={8} className="d-flex justify-content-center align-items-center pr-md-2">
               <Card.Body>
                 <Card.Title className="font-weight-bold text-pink" style={{fontSize: '1.95em'}}>What does a Holistic Nutritionist do?</Card.Title>
                 <Card.Text>A Holistic Nutritionist works with dancers, athletes, individuals, families, groups, and everyone on ways to improve nutrition, energy, strength and promote health and wellness and prevent disease.</Card.Text>
@@ -96,14 +96,14 @@ const BlogIndex = ({ data, location }) => {
                 </Card.Text>
               </Card.Body>
             </Col>
-            <Col md={4}>
+            <Col md={5} lg={4}>
               <Img fluid={data.cardImg3.childImageSharp.fluid} alt="..." objectFit="cover" objectPosition="50% 50%" fadeIn className="indexInfoCardImg w-100 h-100 rounded" />
             </Col>
           </Row>
         </Card>
       </Row>
 
-      <Row className="mb-2 px-md-3">
+      <Row className="mb-2 mb-md-4 pt-md-4 px-md-3">
         <h3 className="text-pink" style={{fontSize: '1.95em'}}>Latest blog posts:</h3>
       </Row>
 
@@ -131,7 +131,7 @@ const BlogIndex = ({ data, location }) => {
                       }}
                     />
                   </section>
-                  <Link to={node.fields.slug} className="btn btn-outline-info rounded-pill">Read more</Link>
+                  <Link to={node.fields.slug} className="btn btn-outline-info rounded-pill" title={`Click to read ${node.frontmatter.title}`}>Read more</Link>
                 </Card.Body>
               </Card>
             </div>
@@ -140,7 +140,7 @@ const BlogIndex = ({ data, location }) => {
 
       </Row>
 
-      <Row className="justify-content-center mb-4 mb-lg-5">
+      <Row className="justify-content-center mb-4 mb-md-5">
         <Link to='/blog' className="btn btn-lg btn-info rounded-pill">See all blog posts</Link>
       </Row>
 
@@ -161,21 +161,21 @@ export const pageQuery = graphql`
     }
     cardImg1: file(relativePath: { eq: "three-breads.jpg"}) {
       childImageSharp {
-        fluid(maxWidth: 1000) {
+        fluid(maxWidth: 550) {
           ...GatsbyImageSharpFluid
         }
       }
     }
     cardImg2: file(relativePath: { eq: "grain-bowl.jpg"}) {
       childImageSharp {
-        fluid(maxWidth: 1000) {
+        fluid(maxWidth: 550) {
           ...GatsbyImageSharpFluid
         }
       }
     }
     cardImg3: file(relativePath: { eq: "sliced-fruit.jpg"}) {
       childImageSharp {
-        fluid(maxWidth: 1000) {
+        fluid(maxWidth: 550) {
           ...GatsbyImageSharpFluid
         }
       }

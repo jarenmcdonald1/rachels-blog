@@ -51,13 +51,12 @@ function encode(data) {
             <Container className="py-4 py-lg-5">
                 <Row className="d-block mb-4 px-3 px-md-2" id="subInputText">
                     <h2>Subscribe to my newsletter!</h2>
-                    <h5 className="lead">Be the first to hear about new blog posts, fun ideas and so much more!</h5>
+                    <p className="lead">Be the first to hear about new blog posts, fun ideas and so much more!</p>
                 </Row>
                 <Row className="px-3 px-md-0 justify-content-center align-items-center" id="subInputForm">
                 <Form
                     name="subscribers"
                     method="post"
-                    //action="/thanks/"
                     data-netlify="true"
                     data-netlify-honeypot="bot-field"
                     onSubmit={handleSubmit}
@@ -71,12 +70,12 @@ function encode(data) {
                         </label>
                     </Form.Group>
                     <Form.Group className="w-100 px-md-2 mb-md-0">
-                        <Form.Label className="sr-only">Your name</Form.Label>
-                        <Form.Control type="text" name="name" placeholder="Your name" onChange={handleChange} required />
+                        <Form.Label for="subscribeName" className="sr-only">Your name</Form.Label>
+                        <Form.Control id="subscribeName" type="text" name="name" placeholder="Your name" onChange={handleChange} required />
                     </Form.Group>
                     <Form.Group className="w-100 px-md-2 mb-md-0">
-                        <Form.Label className="sr-only">Your email</Form.Label>
-                        <Form.Control type="email" name="email" placeholder="Your email" onChange={handleChange} required />
+                        <Form.Label for="subscribeEmail" className="sr-only">Your email</Form.Label>
+                        <Form.Control id="subscribeEmail" type="email" name="email" placeholder="Your email" onChange={handleChange} required />
                     </Form.Group>
                     <Button variant="info" type="submit" className="px-md-4 rounded-pill">Subscribe</Button>
                 </Form>
