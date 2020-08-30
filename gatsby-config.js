@@ -72,16 +72,18 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-google-fonts-v2`,
       options: {
         fonts: [
           {
-            family: `Playfair Display`,
-            variants: [`400`, `500`, `600`, `700`, `800`, `900`]
-          },
-        ],
-      },
+            family: 'Playfair Display',
+            variable: true,
+            weights: ['400..900']
+          }
+        ]
+      }
     },
+    `gatsby-plugin-preload-fonts`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-sass`,
