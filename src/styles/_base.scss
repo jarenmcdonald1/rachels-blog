@@ -53,6 +53,22 @@ h1,h2,h3,h4 {
     }
 }
 
+.banner-text {
+    font-size: 3.5em;
+}
+
+@media only screen and (min-width: 768px) {
+    .banner-text {
+        font-size: 4.25em;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .banner-text {
+        font-size: 5.45em;
+    }
+}
+
 .navbar-brand-img {
     max-width: 200px;
 }

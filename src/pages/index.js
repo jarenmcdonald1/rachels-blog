@@ -19,7 +19,7 @@ const BlogIndex = ({ data, location }) => {
         <Card className="w-100 border-0 text-white">
           <Img className="card-img mb-3 mb-md-0 rounded w-100 indexBannerImg" fluid={data.bannerImg.childImageSharp.fluid} fadeIn objectFit alt="rachel in texas" />
           <Card.ImgOverlay className="d-flex align-items-center justify-content-center">
-            <Card.Title className="display-4 font-weight-bold text-shadow text-center">Fuel your Creativity</Card.Title>
+            <Card.Title className="font-weight-bold text-shadow text-center banner-text">Fuel your Creativity</Card.Title>
           </Card.ImgOverlay>
         </Card>  
       </Row>
