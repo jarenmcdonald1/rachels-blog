@@ -10,7 +10,7 @@ const Header = () => {
     query headerQuery {
       headerLogo: file(absolutePath: { regex: "/rmd-logo.png/" }) {
         childImageSharp {
-          fluid(maxWidth: 300) {
+          fluid(maxWidth: 200) {
             ...GatsbyImageSharpFluid
           }
         }
@@ -21,7 +21,7 @@ const Header = () => {
     <header className="header-con overflow-hidden" id="topPage">
       <Container fluid>
         <Navbar className="py-0" expand="md" variant="light">
-          <Navbar.Brand href="/" className="w-100 py-0" style={{maxWidth:'200px'}}>
+          <Navbar.Brand href="/" className="w-100 py-0 navbar-brand-img" title={"Back to Home"}>
             <Img fluid={data.headerLogo.childImageSharp.fluid} alt="rmd holistics" className="w-100 h-100 logoImg" style={{width:'300px'}} fadeIn />
             <span className="sr-only">RMD Holistics</span>
           </Navbar.Brand>
