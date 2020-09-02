@@ -50,7 +50,7 @@ function encode(data) {
         <section className="mt-3 mt-lg-4 bg-light">
             <Container className="py-4 py-lg-5">
                 <Row className="d-block mb-4 px-3 px-md-2" id="subInputText">
-                    <h2>Subscribe to my newsletter!</h2>
+                    <h2 className="card-header-text">Subscribe to my newsletter!</h2>
                     <p className="lead">Be the first to hear about new blog posts, fun ideas and so much more!</p>
                 </Row>
                 <Row className="px-3 px-md-0 justify-content-center align-items-center" id="subInputForm">

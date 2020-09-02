@@ -19,7 +19,7 @@ const BlogIndex = ({ data, location }) => {
         <Card className="w-100 border-0 text-white">
           <Img className="card-img mb-3 mb-md-0 rounded w-100 indexBannerImg" fluid={data.bannerImg.childImageSharp.fluid} fadeIn objectFit alt="rachel in texas" />
           <Card.ImgOverlay className="d-flex align-items-center justify-content-center">
-            <Card.Title className="font-weight-bold text-shadow text-center banner-text">Fuel your Creativity</Card.Title>
+            <Card.Title className="text-shadow text-center banner-text text-white">Fuel your <span className="border-bottom border-pink">Creativity</span></Card.Title>
           </Card.ImgOverlay>
         </Card>  
       </Row>
@@ -33,7 +33,7 @@ const BlogIndex = ({ data, location }) => {
           <Row>
             <Col md={7} lg={8} className="d-flex justify-content-center align-items-center pr-md-2">
               <Card.Body>
-                <Card.Title className="font-weight-bold text-pink" style={{fontSize: '2.5em'}}>What is RMD Holistics?</Card.Title>
+                <Card.Title className="text-pink card-header-text">What is RMD Holistics?</Card.Title>
                 <Card.Text>RMD Holistics focuses on a complete approach to health and wellness. Our Holistic approach assess issues by digging down to the root of the problem to heal what is underneath the surface.</Card.Text>
                 <Card.Text>RMD Holistics is designed to educate people, families, and a special focus on athletes and dancers. I have the experience of the conflict the body feels being pushed without the nutrition your individual body needs and the painful ways the body reacts. THe difference between distress and healthy nutrition is optimal energy and strength.</Card.Text>
                 <Card.Text>Combining the demands and effects that dance training has on young dancers with an interactive nutrition workshop will provide dancers, parents and studios with a strong foundation for optimal training and performance.</Card.Text>
@@ -52,7 +52,7 @@ const BlogIndex = ({ data, location }) => {
           <Row className="flex-md-row-reverse">
             <Col md={7} lg={8} className="d-flex justify-content-center align-items-center pl-md-2">
               <Card.Body>
-                <Card.Title className="font-weight-bold text-pink" style={{fontSize: '2.5em'}}>Who we work with:</Card.Title>
+                <Card.Title className="text-pink card-header-text">Who we work with:</Card.Title>
                 <Card.Text>
                   <ul>
                     <li>Dance Studios</li>
@@ -77,7 +77,7 @@ const BlogIndex = ({ data, location }) => {
           <Row>
             <Col md={7} lg={8} className="d-flex justify-content-center align-items-center pr-md-2">
               <Card.Body>
-                <Card.Title className="font-weight-bold text-pink" style={{fontSize: '2.5em'}}>What does a Holistic Nutritionist do?</Card.Title>
+                <Card.Title className="text-pink card-header-text">What does a Holistic Nutritionist do?</Card.Title>
                 <Card.Text>A Holistic Nutritionist works with dancers, athletes, individuals, families, groups, and everyone on ways to improve nutrition, energy, strength and promote health and wellness and prevent disease.</Card.Text>
                 <Card.Text>This is achieved by offering the following services:</Card.Text>
                 <Card.Text>
@@ -104,7 +104,7 @@ const BlogIndex = ({ data, location }) => {
       </Row>
 
       <Row className="mb-2 mb-md-4 pt-md-4 px-md-3">
-        <h3 className="text-pink font-weight-bold" style={{fontSize: '2.5em'}}>Latest blog posts:</h3>
+        <h3 className="text-pink card-header-text">Latest blog posts:</h3>
       </Row>
 
       <Row className="mb-1 mb-md-2 mb-lg-3">

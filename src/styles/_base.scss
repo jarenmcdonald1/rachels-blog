@@ -6,7 +6,7 @@ body {
     //font-family: $site-font;
     font-weight: 300;
 }
-h1,h2,h3,h4 {
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5 {
     color: $black;
     font-family: $header-font;
 }
@@ -56,13 +56,11 @@ h1,h2,h3,h4 {
 .banner-text {
     font-size: 3.5em;
 }
-
 @media only screen and (min-width: 768px) {
     .banner-text {
         font-size: 4.25em;
     }
 }
-
 @media only screen and (min-width: 992px) {
     .banner-text {
         font-size: 5.45em;
@@ -85,6 +83,11 @@ h1,h2,h3,h4 {
     color: $pink;
 }
 
+.border-pink {
+    border-color: $pink !important;
+    border-width: thick !important;
+}
+
 .indexBannerImg {
     max-height: 250px;
 }
@@ -101,6 +104,20 @@ h1,h2,h3,h4 {
 
 .text-shadow {
     text-shadow: 0.085em 0.05em 0.85rem $black;
+}
+
+.card-header-text {
+    font-size: 2.45em;
+}
+@media only screen and (min-width: 768px) {
+    .card-header-text {
+        font-size: 2.65em;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .card-header-text {
+        font-size: 2.65em;
+    }
 }
 
 .indexInfoCardImg {

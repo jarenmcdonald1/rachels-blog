@@ -46,7 +46,7 @@ export default function ContactPage({ data, location }) {
         <Row className="align-items-center justify-content-center">
         <Col xs={12} lg={6}>
         <Card.Body className="mb-3">
-          <Card.Title className="text-pink" style={{fontSize: '1.95em'}}>Let's Chat</Card.Title>
+          <Card.Title className="text-pink card-header-text">Let's Chat</Card.Title>
           <Card.Text>Ask away! Over tea, kale chips, or smoothie bowls...your choice. If you're looking for a way to live a healthier lifestyle, start with an email and we'll set up a chat. You're one decision away from taking the next step.</Card.Text>
           <Card.Text><FaEnvelope size="2x" style={{maxWidth:'30px'}} className="mr-2 mb-1" aria-hidden="true" title="email icon" /> <a href={`mailto:${contactInfo.email}`}>{contactInfo.email}</a></Card.Text>
           <Card.Text><FaInstagram size="2x" style={{maxWidth:'30px'}} className="mr-2 mb-1" aria-hidden="true" title="instagram logo" /> <a href={`${contactInfo.instagram}`}>Follow me on Instagram</a></Card.Text>
