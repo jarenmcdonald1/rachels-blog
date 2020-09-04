@@ -129,9 +129,7 @@ Ingredients:
 * Starting Produce 
   <br>
   (fresh ginger, turmeric, garlic, onion, hot peppers) 
-  <br>
-
-  *I really like scotch bonnets as a good in-between pepper with some spice but not overwhelming, remember to take out the seeds and do not touch your eyes after cutting the peppers*
+  <br>*I really like scotch bonnets as a good in-between pepper with some spice but not overwhelming, remember to take out the seeds and do not touch your eyes after cutting the peppers*
 * Bulk Produce 
   <br>
   (zucchini, celery, carrots, broccoli, asparagus, potato, tomato, beans, peas, edamame, thinly sliced kale)
