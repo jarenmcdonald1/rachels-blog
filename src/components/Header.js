@@ -6,6 +6,7 @@ import { Container, Navbar, Nav } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 const Header = () => {
+
   const data = useStaticQuery(graphql`
     query headerQuery {
       headerLogo: file(absolutePath: { regex: "/rmd-logo.png/" }) {
@@ -17,12 +18,13 @@ const Header = () => {
       }
     }
   `)
+
   return(
     <header className="header-con overflow-hidden" id="topPage">
       <Container fluid>
         <Navbar className="py-0" expand="md" variant="light">
-          <Navbar.Brand href="/" className="w-100 py-0 navbar-brand-img" title={"Back to Home"}>
-            <Img fluid={data.headerLogo.childImageSharp.fluid} alt="rmd holistics" className="w-100 h-100 logoImg" style={{width:'300px'}} fadeIn />
+          <Navbar.Brand href="/" className="w-100 py-0" title={"Back to Home"}>
+            <Img fluid={data.headerLogo.childImageSharp.fluid} alt="rmd holistics" className="w-100 h-100" style={{maxWidth:"200px"}} fadeIn />
             <span className="sr-only">RMD Holistics</span>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarResponsive" className="border-secondary rounded-lg" />
@@ -55,15 +57,5 @@ const Header = () => {
     </header>
   )
 }
-
-/*
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
-*/
 
 export default Header

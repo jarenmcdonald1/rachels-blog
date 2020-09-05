@@ -28,6 +28,10 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5 {
     }
 }
 
+.logoImg {
+    max-width: 200px;
+}
+
 .navItemStyle {
     border-bottom: 1px solid #dee2e6;
 }
@@ -65,10 +69,6 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5 {
     .banner-text {
         font-size: 5.45em;
     }
-}
-
-.navbar-brand-img {
-    max-width: 200px;
 }
 
 .nav-link {
