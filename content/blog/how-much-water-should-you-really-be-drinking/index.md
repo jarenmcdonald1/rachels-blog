@@ -17,7 +17,7 @@ Most of us know that water is so important for our day to day life.
 
 <br>
 
-*“Drink eight glasses of water every day”…says every New Years resolution list ever.*
+***“Drink eight glasses of water every day”**…says every New Years resolution list ever.*
 
 <br>
 
@@ -41,11 +41,11 @@ So I’m here to clarify a couple things today!
 
 *<br>*
 
-Regardless of if you are a serious athlete, a fitness connoisseur, a dancer, a desk worker, or a regular high school student, hydration is the key to performance and recovery. Water helps **regulate body temperature, lubricates your impacted joints, and delivers essential nutrients and vitamins throughout the body** to be used, especially in exercise when our bodies require them the most.
+Regardless of if you are a serious athlete, a fitness connoisseur, a dancer, a desk worker, or a regular high school student, **hydration is the key to performance and recovery.** Water helps **regulate body temperature, lubricates your impacted joints, and delivers essential nutrients and vitamins throughout the body** to be used, especially in exercise when our bodies require them the most.
 
 <br>
 
-Without proper hydration, you can experience a malfunctioning body including muscle fatigue, dizziness, headaches, reduced cognitive function, irregular mood swings, and cramping.
+Without proper hydration, you can experience a malfunctioning body including **muscle fatigue, dizziness, headaches, reduced cognitive function, irregular mood swings, and cramping.**
 
 <br>
 
@@ -75,7 +75,7 @@ We should be aiming to hit **one and a half to two litres of water each day!**
 
 <br>
 
-The best way to succeed at doing this is to keep a reusable water bottle on you each day. This way you can keep track of how many times it’s been filled, and in turn, how much water you are drinking.
+The best way to succeed at doing this is to keep a **reusable water bottle on you each day**. This way you can keep track of how many times it’s been filled, and in turn, how much water you are drinking.
 
 <br>
 
@@ -87,7 +87,7 @@ Now for all my athletes, gym-goers, dancers, and yogis!
 
 <br>
 
-It is true, exercise will require you to have more water throughout the day. This is because the body utilizes the water you have consumed to cool you down while you’ve been exercising, it has lubricated joints to prevent inflammation, and it has delivered essential nutrients to the body!
+It is true, **exercise will require you to have more water throughout the day**. This is because the body utilizes the water you have consumed to cool you down while you’ve been exercising, it has lubricated joints to prevent inflammation, and it has delivered essential nutrients to the body!
 
 <br>
 
@@ -96,6 +96,10 @@ In order to be getting enough water while exercising, **for each hour of exercis
 <br>
 
 This means on a day that you exercise for an hour you should be having two and a half to three litres of water.
+
+<br>
+
+Drink up athletes! 
 
 <br>
 
@@ -125,11 +129,11 @@ Where you get your water from matters a great deal.
 
 <br>
 
-Often tap water has been processed with chemicals like fluoride, and chlorine, as well as the natural minerals in the water, have been taken out.
+Often tap water has been processed with **chemicals like fluoride, and chlorine, as well as the natural minerals in the water, have been taken out.**
 
 <br>
 
-We want to make sure we are hydrating ourselves with the highest quality of filtered water, and we also want to make sure that we are re-mineralizing the water to keep our trace mineral content at a level that will prove beneficial to our body’s systems.
+We want to make sure we are hydrating ourselves with the **highest quality of filtered water**, and we also want to make sure that we are re-mineralizing the water to keep our trace mineral content at a level that will prove beneficial to our body’s systems.
 
 <br>
 
@@ -167,11 +171,11 @@ There are a lot of really great and trusted brands on the market, if you find on
 
 <br>
 
-I know what you want me to say… but the truth is, no!
+I know what you want me to say… **but the truth is, no!**
 
 <br>
 
-Coffee and tea do not count as water intake.<br>**insert crying emoji*
+Coffee and tea do not count as water intake.<br>**\**insert crying emoji***
 
 <br>
 
