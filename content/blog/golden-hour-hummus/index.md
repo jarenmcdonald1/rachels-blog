@@ -1,7 +1,7 @@
 ---
 title: GOLDEN HOUR HUMMUS
 date: 2020-08-28T13:00:00.000Z
-description: the best mid-day snack that will warm you from the inside out!
+description: The best mid-day snack that will warm you from the inside out!
 thumbnail: hummus.jpg
 ---
 <br>
