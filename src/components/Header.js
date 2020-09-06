@@ -23,8 +23,8 @@ const Header = () => {
     <header className="header-con overflow-hidden" id="topPage">
       <Container fluid>
         <Navbar className="py-0" expand="md" variant="light">
-          <Navbar.Brand href="/" className="w-100 py-0" title={"Back to Home"}>
-            <Img fluid={data.headerLogo.childImageSharp.fluid} alt="rmd holistics" className="w-100 h-100" style={{maxWidth:"200px"}} fadeIn />
+          <Navbar.Brand href="/" className="w-100 py-0 logoImg" title={"Back to Home"}>
+            <Img fluid={data.headerLogo.childImageSharp.fluid} alt="rmd holistics" className="w-100 h-100 logoImg" fadeIn />
             <span className="sr-only">RMD Holistics</span>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarResponsive" className="border-secondary rounded-lg" />
