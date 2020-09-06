@@ -41,25 +41,31 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         </section>
       </Row>
 
-      <Row>
+      <Row className="mb-3 mb-md-4 mb-lg-5">
         <article>
           <section dangerouslySetInnerHTML={{ __html: post.html }} />
         </article>
       </Row>
 
-      <Row>
-        <nav className="w-100 pt-3 d-flex flex-wrap align-items-center justify-content-between">
-          <div className="mb-1">
+      <Row className="mb-3 pt-3 border-top">
+        <h3 className="card-header-text">Liked what you saw? Click for more:</h3>
+      </Row>
+
+      <Row className="mb-3">
+        <nav className="w-100 pt-3 d-sm-flex align-items-center justify-content-between">
+          <div className="mb-2 mr-sm-1">
             {previous && (
-              <Link to={previous.fields.slug} rel="prev" className="btn btn-outline-info rounded-pill">
-                <FaChevronLeft aria-hidden="true" title="go to previous article" className="mb-1 mr-1" /> {previous.frontmatter.title}
+              <Link to={previous.fields.slug} rel="prev" className="btn btn-outline-info rounded-pill d-flex align-items-center direction-btns-text">
+                <FaChevronLeft aria-hidden="true" title="go to previous article" className="mr-1 direction-btns-icons" /> 
+                {previous.frontmatter.title}
               </Link>
             )}
           </div>
-          <div className="mb-1">
+          <div className="mb-2 ml-sm-1">
             {next && (
-              <Link to={next.fields.slug} rel="next" className="btn btn-outline-info rounded-pill">
-                {next.frontmatter.title} <FaChevronRight aria-hidden="true" title="go to next article" className="mb-1 ml-1" />
+              <Link to={next.fields.slug} rel="next" className="btn btn-outline-info rounded-pill d-flex align-items-center justify-content-end direction-btns-text">
+                {next.frontmatter.title}
+                <FaChevronRight aria-hidden="true" title="go to next article" className="ml-1 direction-btns-icons" />
               </Link>
             )}
           </div>
