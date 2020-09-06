@@ -2,7 +2,7 @@
 title: EVERYTHING BUT THE KITCHEN SINK SOUP
 date: 2020-09-07T21:31:48.113Z
 description: "My favourite soup recipe for every mood! "
-thumbnail: signal-2020-09-04-174235.jpeg
+thumbnail: img_0470.jpg
 ---
 <br>
 
@@ -156,69 +156,19 @@ Instructions:
 <br>
 
 1. Add a small amount oil to a large pot, let the oil heat on medium-high.
-
-
-   <br>
-
-
 2. Add your starting produce (ginger, turmeric, garlic, onion, and hot peppers), let cook for 1-2 minutes, or until fragrant.
-
-
-   <br>
-
-
 3. Prepare Bouillon cubes by adding instructed water 
    <br>*(I use organic vegetable stock Bouillon Cubes, but there are many different flavours, just watch the ingredients to eliminate unknown or sugar-filled ingredients)*
-
-
-     <br>
-
-
 4. Once the water is boiling, add the Bouillon Cubes and let them disintegrate.
-
-
-   <br>
-
-
 5. Rince legumes under the sink, then add to the pot, allow them to simmer for 30 minutes.
       <br> *I really like to use lentils as they are so high in protein*
-
-
-   <br>
-
-
 6. Add all the produce in your fridge 
    <br>
      *Chop however you prefer, no right or wrong way*
-
-
-   <br>
-
-
 7. Add any desired seasoning (Tamari, salt, pepper, cumin, cayenne etc.)
-
-
-   <br>
-
-
 8. Let simmer another 30 minutes.
-
-
-   <br>
-
-
 9. Taste test, and add any other seasoning it may need.
-
-
-   <br>
-
-
 10. Let cool on the warm element for 15 minutes before serving.
-
-
-    <br>
-
-
 11. Enjoy!
 
 <br>
