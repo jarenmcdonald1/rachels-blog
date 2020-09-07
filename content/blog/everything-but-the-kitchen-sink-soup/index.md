@@ -106,15 +106,19 @@ Today’s Recipe is called **EVERYTHING BUT THE KITCHEN SINK SOUP** for a few re
 
 <br>
 
-###### Prep Time: 25 minutes
+---
 
 <br>
 
-Cook Time: 2 hours
+##### Prep Time: 25 minutes
 
 <br>
 
-Total Time: 1 hour & 25 minutes
+##### Cook Time: 2 hours
+
+<br>
+
+##### Total Time: 1 hour & 25 minutes
 
 <br>
 
@@ -161,7 +165,7 @@ Instructions:
    <br>*(I use organic vegetable stock Bouillon Cubes, but there are many different flavours, just watch the ingredients to eliminate unknown or sugar-filled ingredients)*
 4. Once the water is boiling, add the Bouillon Cubes and let them disintegrate.
 5. Rince legumes under the sink, then add to the pot, allow them to simmer for 30 minutes.
-      <br> *I really like to use lentils as they are so high in protein*
+     <br> *I really like to use lentils as they are so high in protein*
 6. Add all the produce in your fridge 
    <br>
      *Chop however you prefer, no right or wrong way*
