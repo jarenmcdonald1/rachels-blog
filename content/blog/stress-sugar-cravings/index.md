@@ -118,7 +118,7 @@ Finding treats that contain no refined sugar and fiber is the best way to balanc
 Raise your hand if you crave chocolate when you’re stressed!
 
 <br>
-\\\\*\\\\*\\\\*raises all limbs\\\\*\\\\*\\\\*
+*raises all limbs*
 
 <br>
 
