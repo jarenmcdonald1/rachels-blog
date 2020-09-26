@@ -120,6 +120,8 @@ Raise your hand if you crave chocolate when you’re stressed!
 <br>
 *raises all limbs*
 
+*<br>*
+
 <br>
 
 So many people crave chocolate when under stress. Not everyone, but it is very common. Nutritionally this makes complete sense as to why your body would be craving some chocolate on a, particularly stressful day. 
