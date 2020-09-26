@@ -118,7 +118,7 @@ Finding treats that contain no refined sugar and fiber is the best way to balanc
 Raise your hand if you crave chocolate when you’re stressed!
 
 <br>
-\\\*\\\*\\\*raises all limbs\\\*\\\*\\\*
+\\\\*\\\\*\\\\*raises all limbs\\\\*\\\\*\\\\*
 
 <br>
 
@@ -133,6 +133,12 @@ Chocolate, now I’m talking the good, unrefined, dairy-free chocolate. (I’m t
 Now, before we continue, I’ve already done a Blog Post on all the wonder that is Magnesium, so check it out here…
 
 <br>
+
+<https://rachelsblog-test.netlify.app/magnesium-all-its-glory/>
+
+<br>
+
+
 We burn through Magnesium really fast when we’re stressed which is why our bodies crave chocolate. 
 
 <br>
@@ -235,7 +241,7 @@ Stay tuned for some incredible healthy dessert recipes to come.
 In the meantime, go…
 
 <br>
- \*\*TREAT YO’ SELF!\*\*
+ \\*\\*TREAT YO’ SELF!\\*\\*
 
 <br>
 
