@@ -2,7 +2,7 @@
 title: PUMPKIN PIE COOKIE ROLLS
 date: 2020-10-12T14:30:00.000Z
 description: "A fall flavoured refined sugar free dessert! "
-thumbnail: img_1224.jpg
+thumbnail: img_1236.jpg
 ---
 <!--StartFragment-->
 
@@ -120,7 +120,7 @@ Since it is fall, after all, I thought I would create a lovely pumpkin dessert t
 
 <br>
 
-![pumpkin cookies](img_1224.jpg)
+![pumpkin cookies](img_1236.jpg)
 
 <br>
 
@@ -227,6 +227,12 @@ Prep Time: 10 Mins
 <br>
 
 ![](img_1221.jpg)
+
+<br>
+
+<br>
+
+![](img_1224.jpg)
 
 <br>
 
