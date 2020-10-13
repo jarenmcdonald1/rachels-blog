@@ -20,10 +20,10 @@ const Header = () => {
   `)
 
   return(
-    <header className="header-con overflow-hidden" id="topPage">
+    <header className="header-con overflow-hidden w-100" id="topPage">
       <Container fluid>
-        <Navbar className="py-0" expand="md" variant="light">
-          <Navbar.Brand href="/" className="w-100 py-0 logoImg" title={"Back to Home"}>
+        <Navbar className="py-0 px-0 px-sm-1" expand="md" variant="light">
+          <Navbar.Brand href="/" className="w-100 py-0 logoImg mr-0 mr-sm-2" title={"Back to Home"}>
             <Img fluid={data.headerLogo.childImageSharp.fluid} alt="rmd holistics" className="w-100 h-100 logoImg" fadeIn />
             <span className="sr-only">RMD Holistics</span>
           </Navbar.Brand>

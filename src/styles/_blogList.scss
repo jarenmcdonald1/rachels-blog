@@ -1,38 +1,130 @@
 //Blog Index page styles
 
 
-.blogListPost {
-    flex: 0 0 100%;
-    max-width: 100%;
+.blogListPostBackground {
+    background-color: rgba(0,0,0,0.35);
 }
 
 .blogListPostImg {
-    max-height: 275px;
+    min-height: 320px;
+    max-height: 320px;
 }
 
-@media only screen and (min-width: 768px) {
+.blogListPostBackground .card-title {
+    font-size: 1.85em;
+}
+
+.blogListPostBackground .card-text {
+    font-size: 1em;
+}
+
+.blogListPostBackground .card-subtitle {
+    font-size: 0.85em;
+}
+
+@media only screen and (min-width: 576px) {
+
     .blogListPostImg {
-        max-height: none;
-        height: 300px;
+        min-height: 350px;
+        max-height: 350px;
+    }
+    
+    .blogListPostBackground .card-title {
+        font-size: 2.25em;
+    }
+    
+    .blogListPostBackground .card-text {
+        font-size: 1.25em;
+        line-height: 1.125em;
+    }
+    
+    .blogListPostBackground .card-subtitle {
+        font-size: 1em;
     }
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 768px) {
+
+    .blogListPostBackground {
+        background-color: rgba(0,0,0,0);
+
+        &:hover {
+            background-color: rgba(0,0,0,0.45);
+            transition: background-color 0.125s ease-in-out;
+        }
+    }
+
+    .blogListPostImg {
+        min-height: 320px;
+        max-height: 320px;
+    }
+
     .blogListPost {
         position: relative;
         padding-left: 15px;
         padding-right: 15px;
         flex: 0 0 50%;
         max-width: 100%;
-
-        &:first-child {
-            flex: 0 0 100%;
-        }
     }
 
     .blogListPost:first-child {
+        flex: 0 0 100%;
+        padding-top: 0 !important;
+
         .blogListPostImg {
-            height: 450px;
+            min-height: 350px;
+            max-height: 350px;
         }
+
+        .blogListPostBackground .card-title {
+            font-size: 2.5em;
+        }
+    }
+    
+    .blogListPostBackground .card-title {
+        font-size: 1.85em;
+    }
+    
+    .blogListPostBackground .card-text {
+        font-size: 1.125em;
+        line-height: 1em;
+    }
+    
+    .blogListPostBackground .card-subtitle {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+    .blogListPost:first-child {
+        padding-bottom: 40px;
+
+        .blogListPostImg {
+            max-height: 450px;
+            min-height: 450px;
+        };
+
+        .blogListPostBackground .card-title {
+            font-size: 3.5em;
+        }
+    }
+
+    .blogListPostImg {
+        min-height: 360px;
+        max-height: 360px;
+    }
+    
+    .blogListPostBackground .card-title {
+        font-size: 2.25em;
+    }
+    
+    .blogListPostBackground .card-text {
+        font-size: 1.25em;
+        line-height: 1.125em;
+    }
+    
+    .blogListPostBackground .card-subtitle {
+        font-size: 1em;
     }
 }

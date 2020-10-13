@@ -29,13 +29,17 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5 {
 }
 
 .logoImg {
-    max-width: 200px;
+    max-width: 160px;
 }
 
 .navItemStyle {
     border-bottom: 1px solid #dee2e6;
 }
 @media only screen and (min-width: 768px) {
+    .logoImg {
+        max-width: 200px;
+    }
+
     .navItemStyle {
         border-bottom: 0;
         font-size: 1.125em;
@@ -43,11 +47,12 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5 {
 }
 
 #content {
-    padding-top: 180px;
+    padding-top: 130px;
     min-height: 65vh;
 }
 @media only screen and (min-width: 768px) {
     #content {
+        padding-top: 160px;
         min-height: 78vh;
     }
 }

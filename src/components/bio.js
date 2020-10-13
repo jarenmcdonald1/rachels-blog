@@ -29,7 +29,7 @@ const Bio = () => {
 
   const { author } = data.site.siteMetadata
   return (
-    <section id="aboutCon">
+    <section id="aboutCon" class="w-100">
     <Card className="w-100 border-0">
       <Row>
         <Col md={4}>
