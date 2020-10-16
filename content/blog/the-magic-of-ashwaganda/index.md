@@ -1,6 +1,6 @@
 ---
 title: THE MAGIC OF ASHWAGANDA
-date: 2020-10-16T02:08:09.249Z
+date: 2020-10-16T14:00:00.000Z
 description: An easy way to help you cope with the stressful days ahead!
 thumbnail: stress.jpeg
 ---
