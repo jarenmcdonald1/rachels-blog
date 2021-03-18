@@ -57,7 +57,7 @@ Then it dawned on me. My snacks that were supposed to take me from meal to meal 
 
 <br>
 
-###### PROTEIN!
+###### PROTEIN
 
 <br>
 
@@ -136,7 +136,7 @@ Today, I’m going to share a wonderfully quick and easy recipe that will provid
 
 <br>
 
----
+- - -
 
 <br>
 
@@ -158,7 +158,7 @@ Today, I’m going to share a wonderfully quick and easy recipe that will provid
 
 <br>
 
----
+- - -
 
 <br>
 
@@ -174,7 +174,7 @@ Today, I’m going to share a wonderfully quick and easy recipe that will provid
 
 <br>
 
----
+- - -
 
 <br>
 
@@ -184,7 +184,7 @@ Today, I’m going to share a wonderfully quick and easy recipe that will provid
 
 <br>
 
----
+- - -
 
 <br>
 
@@ -192,7 +192,7 @@ Today, I’m going to share a wonderfully quick and easy recipe that will provid
 
 <br>
 
----
+- - -
 
 <br>
 
