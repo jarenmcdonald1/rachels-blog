@@ -1,5 +1,5 @@
 ---
-title: NUT BUTTER & CHOCOLATE OAT BITES
+title: NUT BUTTER CHOCOLATE OAT BITES
 date: 2021-03-18T21:44:55.014Z
 description: Little power-packed bites to keep you fuelled for your busy days!
 thumbnail: signal-2021-03-18-174808_001.jpeg
